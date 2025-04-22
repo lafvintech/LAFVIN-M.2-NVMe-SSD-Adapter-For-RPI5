@@ -30,7 +30,7 @@ Features
 .. _key-features:
 
 * **Designed for Raspberry Pi 5:** Perfectly tailored for the latest Raspberry Pi 5 single-board computer.
-* **NVMe Support:** Allows installation of M Key M.2 NVMe SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD mounting screws, no soldering required.
+* **NVMe Support:** Supports installation of M Key and B+M Key M.2 NVMe SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD mounting screws, no soldering required.
 * **PCIe Support:** Supports PCIe x1 interface, compatible with both Gen2 and Gen3 standards.
 * **Optimized Cooling:** On-board ventilation holes facilitate airflow, enhancing heat dissipation.
 * **Camera/Display FPC Cutouts:** Openings are reserved on the PCB to allow routing for two display or camera FPC cables.
