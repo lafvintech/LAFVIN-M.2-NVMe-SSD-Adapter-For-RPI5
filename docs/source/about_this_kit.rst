@@ -16,9 +16,9 @@ LAFVIN M.2 NVMe SSD Adapter For RPI5
 Introduction
 ============
 
-The N04 is an NVMe M.2 SSD PCIe peripheral board (PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi 5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, 2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer and high-speed system booting.
+The LAFVIN M.2 NVMe SSD Adapter is an NVMe M.2 SSD PCIe peripheral board (PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi 5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, 2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer and high-speed system booting.
 
-The N04 board conforms to the standard Raspberry Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, 2242, 2260, and 2280. The kit includes SSD mounting screws, allowing users to easily install different SSD sizes as needed.
+The LAFVIN M.2 NVMe SSD Adapter board conforms to the standard Raspberry Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, 2242, 2260, and 2280. The kit includes SSD mounting screws, allowing users to easily install different SSD sizes as needed.
 
 .. image:: ./Tutorial/img/3d1.png
 
@@ -41,6 +41,8 @@ Features
 * **All Necessary Accessories Included:** The kit contains an FPC PCIe ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and an M.2 SSD heatsink kit including a heatsink and thermal pad.
 
 .. image:: ./Tutorial/img/list.jpg
+
+   *Included accessories in the kit*
 
 Application Scenarios
 =====================
