@@ -1,11 +1,11 @@
 M.2 Adapter Compatibility Issues
-==================================
+===================================
 
 .. attention::
    The following SSDs may have compatibility issues. While some issues may have been resolved, it is still recommended to use NVMe SSDs not listed below.
 
 Western Digital Series
------------------------
+------------------------
 
 * Western Digital Green SN350 series
 * Western Digital Blue SN550 series
@@ -16,7 +16,7 @@ Western Digital Series
 * Western Digital BLACK 8TB SN850X
 
 Other Brands
--------------
+--------------
 
 * Samsung PM991
 * Kingston OM8SEP4256Q-A0
