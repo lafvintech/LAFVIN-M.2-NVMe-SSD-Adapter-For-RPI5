@@ -41,8 +41,7 @@ Features
 * **All Necessary Accessories Included:** The kit contains an FPC PCIe ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and an M.2 SSD heatsink kit including a heatsink and thermal pad.
 
 .. image:: ./Tutorial/img/list.jpg
-
-   *Included accessories in the kit*
+   :alt: Included accessories in the kit
 
 Application Scenarios
 =====================

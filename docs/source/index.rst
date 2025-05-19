@@ -5,5 +5,5 @@ LAFVIN M.2 NVMe SSD Adapter For RPI5
    :maxdepth: 2
 
    about_this_kit
-   component_list
    Tutorial/tutorial
+   m.2_adapter_compatibility_issues
