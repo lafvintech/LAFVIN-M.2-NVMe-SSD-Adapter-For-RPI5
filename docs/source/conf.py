@@ -46,10 +46,10 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
      'logo_only': True,
+     'display_version': True,
  }
 
  # multi-language docs
 language = 'en'
 locale_dirs = ['../locales/']   # path is example but recommended.
 gettext_compact = False  # optional.
-gettext_uuid = True  # optional.
