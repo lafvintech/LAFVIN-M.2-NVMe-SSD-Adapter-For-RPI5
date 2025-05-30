@@ -12,8 +12,8 @@ You can refer to the video tutorial below. Please follow the steps in the video 
    <iframe width="650" height="400" src="https://www.youtube.com/embed/IaQ3wGXngcE?si=AitTcwl2qR4YBx62"  title="LAFVIN M.2 NVMe SSD Adapter For RPI5 Installation Demonstration Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-2. Install VNC Viewer Software
-===============================
+Install VNC Viewer Software
+-------------------------------
 Please visit the official RealVNC website below to download and install the VNC Viewer client according to your operating system:
 
 `Download VNC Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_

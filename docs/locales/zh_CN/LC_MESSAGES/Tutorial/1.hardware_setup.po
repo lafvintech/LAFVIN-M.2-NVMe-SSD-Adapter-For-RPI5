@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"POT-Creation-Date: 2025-05-30 17:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -37,8 +37,9 @@ msgid ""
 msgstr "您可以参考下面的视频教程。请按照视频中的步骤安装 M.2 NVMe 固态硬盘适配器："
 
 #: ../../source/Tutorial/1.hardware_setup.rst:16
-msgid "2. Install VNC Viewer Software"
-msgstr "2.安装 VNC 查看器软件"
+#, fuzzy
+msgid "Install VNC Viewer Software"
+msgstr "安装 VNC Viewer软件"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:17
 msgid ""
@@ -50,7 +51,7 @@ msgstr "请访问以下 RealVNC 官方网站，根据操作系统下载并安装
 msgid ""
 "`Download VNC Viewer "
 "<https://www.realvnc.com/en/connect/download/viewer/>`_"
-msgstr "下载 VNC 查看器 <https://www.realvnc.com/en/connect/download/viewer/>`_"
+msgstr "`下载 VNC Viewer <https://www.realvnc.com/en/connect/download/viewer/>`_"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:-1
 msgid "VNC Viewer Download Page"
@@ -76,5 +77,9 @@ msgid ""
 "ensure that you have enabled the VNC server on the Raspberry PI (this can"
 " be done by running 'sudo raspi-config' 'and then selecting Interface "
 "Options -> VNC -> Yes)."
-msgstr "您需要知道 Raspberry PI 的 IP 地址才能通过 VNC 进行连接。通常，你可以在计算机的命令行或终端中使用 "ping-4 raspberrypi.local "命令，或者通过查看路由器上的连接设备列表来查找 IP 地址。此外，请确保已启用 Raspberry PI 上的 VNC 服务器（可通过运行 "sudo raspi-config"，然后选择 "接口选项" -> "VNC" -> "是"）。"
+msgstr ""
+"您需要知道 Raspberry PI 的 IP 地址才能通过 VNC 进行连接。通常，你可以在计算机的命令行或终端中使用 \"ping-4 "
+"raspberrypi.local \"命令，或者通过查看路由器上的连接设备列表来查找 IP 地址。此外，请确保已启用 Raspberry PI "
+"上的 VNC 服务器（可通过运行 \"sudo raspi-config\"，然后选择 \"Interface Options\" -> "
+"\"VNC\" -> \"Yes\"）。"
 

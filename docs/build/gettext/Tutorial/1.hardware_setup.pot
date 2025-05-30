@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"POT-Creation-Date: 2025-05-30 17:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "You can refer to the video tutorial below. Please follow the steps in the
 msgstr ""
 
 #: ../../source/Tutorial/1.hardware_setup.rst:16
-msgid "2. Install VNC Viewer Software"
+msgid "Install VNC Viewer Software"
 msgstr ""
 
 #: ../../source/Tutorial/1.hardware_setup.rst:17

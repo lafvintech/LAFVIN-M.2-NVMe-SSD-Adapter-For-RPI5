@@ -101,7 +101,7 @@ msgstr "**超短 PCIe 路由：** 优化的 PCIe 短信号路由可确保更可�
 msgid ""
 "**LED Indicator:** Features an onboard LED indicator (\"ACT\") for M.2 "
 "SSD activity status."
-msgstr "** LED 指示灯：** 具有板载 LED 指示灯（（"ACT/"）），用于显示 M.2 固态硬盘的活动状态。"
+msgstr "**LED 指示灯：** 具有板载 LED 指示灯（\"ACT\"）），用于显示 M.2 固态硬盘的活动状态。"
 
 #: ../../source/about_this_kit.rst:40
 msgid ""
