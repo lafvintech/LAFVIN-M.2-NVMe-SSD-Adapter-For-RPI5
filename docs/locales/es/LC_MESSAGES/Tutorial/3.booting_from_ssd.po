@@ -12,9 +12,9 @@ msgstr ""
 "POT-Creation-Date: 2025-05-30 15:34+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,14 +22,14 @@ msgstr ""
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:2
 msgid "3. Using SSD as the System Disk"
-msgstr "3.使用固态硬盘作为系统盘"
+msgstr "3. Uso de SSD como disco del sistema"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:3
 msgid ""
 "This chapter will guide you on how to configure an M.2 NVMe SSD as the "
 "primary system disk for your Raspberry Pi 5, enabling you to boot and run"
 " the system from the SSD."
-msgstr "本章将指导您如何配置 M.2 NVMe 固态硬盘作为 Raspberry Pi 5 的主系统盘，使您能够从固态硬盘启动和运行系统。"
+msgstr "Este capítulo le guiará sobre cómo configurar un SSD M.2 NVMe como disco de sistema primario para su Raspberry Pi 5, permitiéndole arrancar y ejecutar el sistema desde el SSD."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:6
 msgid ""
@@ -40,139 +40,139 @@ msgid ""
 "and SSD * Confirming the system recognizes the SSD (using ``lspci`` and "
 "``lsblk``) * Formatting the SSD with the ext4 filesystem (using "
 "``mkfs.ext4``)"
-msgstr "在开始之前，请确保已完成上一章**"2.使用固态硬盘作为扩展存储（SD 卡 + 固态硬盘）"**中的**步骤 1 至 4**，包括* 修改启动配置 (``/boot/firmware/config.txt``) * 正确安装 M.2 适配器和固态硬盘 * 确认系统可识别固态硬盘（使用 ``lspci` 和 ``lsblk`） * 使用 ext4 文件系统格式化固态硬盘（使用 ``mkfs.ext4`)"
+msgstr "Antes de empezar, asegúrate de haber completado los **pasos 1 a 4** del capítulo anterior **"2. Uso del SSD como almacenamiento expandido (tarjeta SD + SSD)**", incluyendo: * Modificar la configuración de arranque (``/boot/firmware/config.txt``) * Instalar correctamente el adaptador M.2 y el SSD * Confirmar que el sistema reconoce el SSD (usando ``lspci`` y ``lsblk``) * Formatear el SSD con el sistema de archivos ext4 (usando ``mkfs.ext4``)"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:12
 msgid ""
 "**Do not perform Step 5 (Mounting the SSD) or Step 6 (Testing Speed) from"
 " the previous chapter.**"
-msgstr "**请勿执行上一章的第 5 步（安装固态硬盘）或第 6 步（测试速度）**。"
+msgstr "**No realice el Paso 5 (Montaje de la unidad SSD) ni el Paso 6 (Pruebas de velocidad) del capítulo anterior."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:15
 msgid "**Step 1: Enable and Connect VNC**"
-msgstr "**第 1 步：启用并连接 VNC**"
+msgstr "**Paso 1: Activar y conectar VNC**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:16
 msgid ""
 "If you haven't enabled the VNC server yet, enable it via ``raspi-config``"
 " or the desktop environment's settings. * Enter ``sudo raspi-config`` in "
 "the terminal * Select ``Interface Options`` -> ``VNC`` -> ``Yes``."
-msgstr "如果尚未启用 VNC 服务器，请通过 ``raspi-config`` 或桌面环境设置启用。* 在终端中输入 ``sudo raspi-config`` * 选择 ``Interface Options`` -> ``VNC`` -> ``Yes``。"
+msgstr "Si aún no has habilitado el servidor VNC, habilítalo a través de ``raspi-config`` o la configuración del entorno de escritorio. * Introduce ``sudo raspi-config`` en el terminal * Selecciona ``Opciones de interfaz`` -> ``VNC`` -> ``Sí``."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:19
 msgid ""
 "Using a VNC Viewer client or similar software, connect to the Raspberry "
 "Pi's desktop environment from your computer."
-msgstr "使用 VNC 查看器客户端或类似软件，从电脑连接到 Raspberry Pi 的桌面环境。"
+msgstr "Utilizando un cliente VNC Viewer o un software similar, conéctese al entorno de escritorio de la Raspberry Pi desde su ordenador."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:26
 msgid "**Step 2: Copy the System using SD Card Copier**"
-msgstr "**步骤 2：使用 SD 卡复制器复制系统**"
+msgstr "**Paso 2: Copiar el Sistema usando el Copiador de Tarjetas SD**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:27
 msgid ""
 "In the Raspberry Pi's desktop environment, find and open the \"SD Card "
 "Copier\" tool (usually under the \"Accessories\" menu)."
-msgstr "在 Raspberry Pi 的桌面环境中，找到并打开 "SD Card Copier\" 工具（通常在 "Accessories\" 菜单下）。"
+msgstr "En el entorno de escritorio de la Raspberry Pi, busque y abra la herramienta "Copiadora de tarjetas SD" (normalmente en el menú "Accesorios")."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:28
 msgid ""
 "In the \"Copy From Device\" dropdown menu, select your SD card device "
 "(usually ``/dev/mmcblk0``)."
-msgstr "在 "Copy From Device\" 下拉菜单中，选择 SD 卡设备（通常为 ``/dev/mmcblk0``）。"
+msgstr "En el menú desplegable "Copiar desde dispositivo", seleccione el dispositivo de su tarjeta SD (normalmente ``/dev/mmcblk0``)."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:29
 msgid ""
 "In the \"Copy To Device\" dropdown menu, select your NVMe SSD device "
 "(e.g., ``/dev/nvme0n1``)."
-msgstr "在 "Copy To Device\" 下拉菜单中，选择你的 NVMe SSD 设备（例如，``/dev/nvme0n1``）。"
+msgstr "En el menú desplegable "Copiar en dispositivo", seleccione su dispositivo SSD NVMe (por ejemplo, ``/dev/nvme0n1``)."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:30
 msgid ""
 "**Make sure to check the \"New Partition UUIDs\"** option. This is "
 "crucial to avoid partition UUID conflicts during boot."
-msgstr "**确保选中 "New Partition UUIDs\"** 选项。这对避免启动过程中分区 UUID 冲突至关重要。"
+msgstr "**Asegúrese de marcar la opción "Nuevo UUID de partición". Esto es crucial para evitar conflictos de UUID de partición durante el arranque."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:31
 msgid ""
 "Click the \"Start\" button to begin the copying process. This may take "
 "some time, depending on the size and speed of your SD card."
-msgstr "点击 "Start（开始）"按钮开始复制过程。这可能需要一些时间，具体取决于 SD 卡的大小和速度。"
+msgstr "Haga clic en el botón "Iniciar" para iniciar el proceso de copia. Esto puede tardar algún tiempo, dependiendo del tamaño y la velocidad de su tarjeta SD."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst
 msgid "SD Card Copier - Select Source Device (SD Card)"
-msgstr "SD 卡复制器 - 选择源设备（SD 卡）"
+msgstr "Copiadora de tarjetas SD - Seleccionar dispositivo de origen (tarjeta SD)"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst
 msgid "SD Card Copier - Select Target Device (SSD) and check New Partition UUIDs"
-msgstr "SD 卡复制器 - 选择目标设备（固态硬盘）并选中新分区 UUID"
+msgstr "Copiadora de tarjetas SD - Seleccione Dispositivo de destino (SSD) y marque Nuevos UUID de partición."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst
 msgid "SD Card Copier - Start Copying"
-msgstr "SD 卡复制器 - 开始复制"
+msgstr "Copiadora de tarjetas SD - Iniciar copia"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:40
 msgid "Wait for the copy process to complete."
-msgstr "等待复制过程完成。"
+msgstr "Espere a que finalice el proceso de copia."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:43
 msgid "**Step 3: Modify EEPROM Boot Configuration**"
-msgstr "**第 3 步：修改 EEPROM 启动配置**"
+msgstr "**Paso 3: Modificar la configuración de arranque de la EEPROM**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:44
 msgid ""
 "After the copy is complete, maintain the VNC connection or switch back to"
 " an SSH terminal."
-msgstr "复制完成后，保持 VNC 连接或切换回 SSH 终端。"
+msgstr "Una vez finalizada la copia, mantenga la conexión VNC o vuelva a un terminal SSH."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:45
 msgid "Execute the following command to edit the EEPROM configuration:"
-msgstr "执行以下命令编辑 EEPROM 配置："
+msgstr "Ejecute el siguiente comando para editar la configuración de la EEPROM:"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:51
 msgid ""
 "Check the file content and ensure it includes the following two lines. If"
 " they don't exist, add them:"
-msgstr "检查文件内容，确保包含以下两行。如果不存在，请添加："
+msgstr "Compruebe el contenido del archivo y asegúrese de que incluye las dos líneas siguientes. Si no existen, añádalas:"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:58
 msgid "``PCIE_PROBE=1`` ensures PCIe devices are probed at boot."
-msgstr "`PCIE_PROBE=1`` 确保在启动时探测 PCIe 设备。"
+msgstr "``PCIE_PROBE=1`` asegura que los dispositivos PCIe son sondeados en el arranque."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:59
 msgid ""
 "``BOOT_ORDER=0xf416`` sets the boot order: Try NVMe SSD (``6``) first, "
 "then SD card (``1``), then USB (``4``), and finally network boot (``f``) "
 "if all else fails."
-msgstr "`BOOT_ORDER=0xf416`` 设置启动顺序：首先尝试 NVMe 固态硬盘 (``6``)，然后是 SD 卡 (``1``)，然后是 USB (``4``)，最后是网络启动 (``f``)（如果其他方法都失败）。"
+msgstr "``BOOT_ORDER=0xf416`` establece el orden de arranque: Prueba primero con el SSD NVMe (``6``), luego con la tarjeta SD (``1``), después con el USB (``4``) y finalmente con el arranque por red (``f``) si todo lo demás falla."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst
 msgid "Edit EEPROM Configuration"
-msgstr "编辑 EEPROM 配置"
+msgstr "Editar configuración EEPROM"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst
 msgid "Example EEPROM Configuration Content (including PCIE_PROBE and BOOT_ORDER)"
-msgstr "EEPROM 配置内容示例（包括 PCIE_PROBE 和 BOOT_ORDER）"
+msgstr "Ejemplo de contenido de configuración EEPROM (incluyendo PCIE_PROBE y BOOT_ORDER)"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:66
 msgid "Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit."
-msgstr "按``Ctrl+X``，然后按``Y``，最后按``Enter`保存并退出。"
+msgstr "Pulsa ``Ctrl+X``, luego ``Y`` y, por último, ``Enter`` para guardar y salir."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:69
 msgid "**Step 4: Boot from SSD**"
-msgstr "**第 4 步：从固态硬盘启动**"
+msgstr "**Paso 4: Arrancar desde SSD**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:70
 msgid "Power off the Raspberry Pi 5."
-msgstr "关闭 Raspberry Pi 5 的电源。"
+msgstr "Apague la Raspberry Pi 5."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:71
 msgid "**Remove the SD card**."
-msgstr "**删除 SD 卡**。"
+msgstr "**Retira la tarjeta SD**."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:72
 msgid "Reconnect the power."
-msgstr "重新连接电源。"
+msgstr "Vuelva a conectar la alimentación."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:74
 msgid ""
@@ -180,11 +180,11 @@ msgid ""
 "everything is successful, the system will load and run from the SSD. You "
 "can confirm if the root filesystem (``/``) is on the NVMe device (e.g., "
 "``/dev/nvme0n1p2``) using the ``lsblk`` or ``df -h`` command."
-msgstr "现在，Raspberry Pi 应尝试从 NVMe SSD 启动。如果一切顺利，系统将从固态硬盘加载并运行。你可以使用 `lsblk` 或 `df -h` 命令确认根文件系统（`/``）是否位于 NVMe 设备上（例如，`/dev/nvme0n1p2`）。"
+msgstr "La Raspberry Pi debería ahora intentar arrancar desde el SSD NVMe. Si todo tiene éxito, el sistema se cargará y se ejecutará desde el SSD. Puede confirmar si el sistema de archivos raíz (``/``) se encuentra en el dispositivo NVMe (por ejemplo, ``/dev/nvme0n1p2``) utilizando el comando ``lsblk`` o ``df -h``."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:79
 msgid ""
 "If you encounter boot issues, you can try reinserting the SD card to "
 "check the EEPROM configuration and the filesystem on the SSD."
-msgstr "如果遇到启动问题，可以尝试重新插入 SD 卡，检查 EEPROM 配置和固态硬盘上的文件系统。"
+msgstr "Si tiene problemas de arranque, puede intentar volver a insertar la tarjeta SD para comprobar la configuración de la EEPROM y el sistema de archivos de la unidad SSD."
 

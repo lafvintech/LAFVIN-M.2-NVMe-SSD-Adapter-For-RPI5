@@ -12,9 +12,9 @@ msgstr ""
 "POT-Creation-Date: 2025-05-30 15:34+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,190 +22,190 @@ msgstr ""
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:2
 msgid "2. Using SSD as Expanded Storage (SD Card + SSD)"
-msgstr "2.使用固态硬盘作为扩展存储（SD 卡 + 固态硬盘）"
+msgstr "2. Uso de SSD como almacenamiento ampliado (tarjeta SD + SSD)"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:3
 msgid ""
 "This chapter will guide you on how to configure an M.2 NVMe SSD as "
 "expanded storage for your Raspberry Pi 5 (meaning the system still runs "
 "on the SD card, and the SSD is used for storing data)."
-msgstr "本章将指导你如何配置 M.2 NVMe 固态硬盘作为 Raspberry Pi 5 的扩展存储（即系统仍在 SD 卡上运行，固态硬盘用于存储数据）。"
+msgstr "Este capítulo le guiará sobre cómo configurar un SSD M.2 NVMe como almacenamiento ampliado para su Raspberry Pi 5 (lo que significa que el sistema todavía se ejecuta en la tarjeta SD, y el SSD se utiliza para almacenar datos)."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:5
 msgid ""
 "First, log in to your Raspberry Pi 5 system via SSH or by directly "
 "connecting a keyboard and monitor."
-msgstr "首先，通过 SSH 或直接连接键盘和显示器登录 Raspberry Pi 5 系统。"
+msgstr "En primer lugar, inicia sesión en tu sistema Raspberry Pi 5 a través de SSH o conectando directamente un teclado y un monitor."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:8
 msgid "**Step 1: Modify Boot Configuration**"
-msgstr "**第 1 步：修改启动配置**"
+msgstr "**Paso 1: Modificar la configuración de arranque**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:9
 msgid ""
 "Edit the ``/boot/firmware/config.txt`` file. Using the ``nano`` editor is"
 " recommended:"
-msgstr "编辑 ``/boot/firmware/config.txt`` 文件。建议使用 ``nano`` 编辑器："
+msgstr "Edita el archivo ``/boot/firmware/config.txt``. Se recomienda usar el editor ``nano``:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:15
 msgid "Add the following two lines at the end of the file:"
-msgstr "在文件末尾添加以下两行："
+msgstr "Añada las dos líneas siguientes al final del fichero:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:22
 msgid ""
 "Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit the "
 "editor."
-msgstr "按``Ctrl+X``，然后按``Y``，最后按``Enter`保存并退出编辑器。"
+msgstr "Pulsa ``Ctrl+X``, luego ``Y`` y, por último, ``Enter`` para guardar y salir del editor."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:28
 msgid "**Step 2: Install Hardware**"
-msgstr "**第 2 步：安装硬件**"
+msgstr "**Paso 2: Instalar el hardware**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:29
 msgid "Power off the Raspberry Pi 5."
-msgstr "关闭 Raspberry Pi 5 的电源。"
+msgstr "Apague la Raspberry Pi 5."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:30
 msgid ""
 "Following the instructions for your M.2 adapter, correctly install your "
 "NVMe SSD onto the M.2 adapter."
-msgstr "按照 M.2 适配器的说明，将 NVMe 固态硬盘正确安装到 M.2 适配器上。"
+msgstr "Siguiendo las instrucciones de su adaptador M.2, instale correctamente su SSD NVMe en el adaptador M.2."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:33
 msgid "**Step 3: Check SSD Recognition**"
-msgstr "**第 3 步：检查固态硬盘识别**"
+msgstr "**Paso 3: Comprobar el reconocimiento de SSD**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:34
 msgid "Reconnect the power and boot up the Raspberry Pi 5."
-msgstr "重新连接电源并启动 Raspberry Pi 5。"
+msgstr "Vuelva a conectar la alimentación y arranque la Raspberry Pi 5."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:35
 msgid ""
 "Open a terminal and execute the following commands to check the PCI-E "
 "devices and block device list, confirming if your SSD is recognized by "
 "the system:"
-msgstr "打开终端，执行以下命令检查 PCI-E 设备和块设备列表，确认系统是否能识别固态硬盘："
+msgstr "Abra un terminal y ejecute los siguientes comandos para comprobar los dispositivos PCI-E y la lista de dispositivos de bloque, confirmando si su SSD es reconocido por el sistema:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:42
 msgid ""
 "You should see information similar to ``NVMe SSD`` or the specific model "
 "name, along with a new block device (e.g., ``/dev/nvme0n1``)."
-msgstr "你应该会看到类似于 ``NVMe SSD`` 或特定型号名称的信息，以及一个新的块设备（例如，``/dev/nvme0n1``）。"
+msgstr "Debería ver información similar a ``NVMe SSD`` o el nombre específico del modelo, junto con un nuevo dispositivo de bloque (por ejemplo, ``/dev/nvme0n1``)."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:49
 msgid "**Step 4: Format the SSD**"
-msgstr "**第 4 步：格式化固态硬盘**"
+msgstr "**Paso 4: Formatear el SSD**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:50
 msgid ""
 "Use the ``mkfs.ext4`` command to format the SSD with the ext4 filesystem."
 " **Please replace ``/dev/nvme0n1`` with the actual device name you "
 "identified in the previous step**."
-msgstr "使用 ``mkfs.ext4`` 命令用 ext4 文件系统格式化固态硬盘。**请将 ``/dev/nvme0n1`` 替换为上一步中确定的实际设备名称**。"
+msgstr "Utilice el comando ``mkfs.ext4`` para formatear el SSD con el sistema de archivos ext4. **Sustituya ``/dev/nvme0n1`` por el nombre real del dispositivo que identificó en el paso anterior**."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:53
 msgid "Formatting will erase all data on the SSD. Proceed with caution!"
-msgstr "格式化将删除固态硬盘上的所有数据。请谨慎操作！"
+msgstr "El formateo borrará todos los datos de la unidad SSD. Proceda con precaución."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:59
 msgid ""
 "The system might prompt you about detecting a partition table; type ``y``"
 " and press ``Enter`` to continue."
-msgstr "系统可能会提示检测分区表；键入 ``y`` 并按``Enter``继续。"
+msgstr "Es posible que el sistema te pregunte sobre la detección de una tabla de particiones; escribe ``y`` y pulsa ``Enter`` para continuar."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:61
 msgid ""
 "After formatting is complete, use ``lsblk`` again to confirm the device "
 "status."
-msgstr "格式化完成后，再次使用 ``lsblk`` 确认设备状态。"
+msgstr "Una vez finalizado el formateo, vuelva a utilizar ``lsblk`` para confirmar el estado del dispositivo."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:67
 msgid "Now, ``/dev/nvme0n1`` should no longer have an associated mount point."
-msgstr "现在，`/dev/nvme0n1`` 不再有关联的挂载点。"
+msgstr "Ahora, ``/dev/nvme0n1`` ya no debería tener un punto de montaje asociado."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:72
 msgid "**Step 5: Mount the SSD**"
-msgstr "**第 5 步：安装固态硬盘**"
+msgstr "**Paso 5: Montar el SSD**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:73
 msgid ""
 "Create a directory to serve as the mount point for the SSD. For example, "
 "create a directory named ``SSD`` in the user's home directory:"
-msgstr "创建一个目录作为固态硬盘的挂载点。例如，在用户的主目录下创建一个名为 ``SSD`` 的目录："
+msgstr "Cree un directorio que sirva como punto de montaje para el SSD. Por ejemplo, cree un directorio llamado ``SSD`` en el directorio personal del usuario:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:79
 msgid "Manually mount the SSD to this directory:"
-msgstr "手动将固态硬盘挂载到此目录："
+msgstr "Monte manualmente el SSD en este directorio:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:87
 msgid ""
 "To make the system automatically mount the SSD on every boot, you need to"
 " edit the ``/etc/fstab`` file:"
-msgstr "要让系统在每次启动时自动加载固态硬盘，你需要编辑``/etc/fstab``文件："
+msgstr "Para que el sistema monte automáticamente el SSD en cada arranque, es necesario editar el archivo ``/etc/fstab``:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:93
 msgid ""
 "Add the following line at the end of the file. **Again, be sure to "
 "replace the device name and mount path with your actual names**:"
-msgstr "在文件末尾添加以下一行。**另外，请务必将设备名称和挂载路径替换为实际名称**："
+msgstr "Añade la siguiente línea al final del archivo. **De nuevo, asegúrese de reemplazar el nombre del dispositivo y la ruta de montaje con sus nombres reales**:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:99
 msgid ""
 "This assumes your username is ``pi`` and the mount point is "
 "``/home/pi/SSD``. Modify according to your actual setup."
-msgstr "假设用户名为 ``pi``，挂载点为 ``/home/pi/SSD``。请根据实际设置进行修改。"
+msgstr "Esto supone que su nombre de usuario es ``pi`` y el punto de montaje es ``/home/pi/SSD``. Modifíquelo según su configuración real."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:101
 msgid "Press ``Ctrl+X``, ``Y``, ``Enter`` to save and exit."
-msgstr "按 ``Ctrl+X``, ``Y``, ``Enter` 保存并退出。"
+msgstr "Pulsa ``Ctrl+X``, ``Y``, ``Enter`` para guardar y salir."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:105
 msgid ""
 "Execute the following command to apply the mount, or simply reboot the "
 "Raspberry Pi:"
-msgstr "执行以下命令应用挂载，或者直接重启 Raspberry Pi："
+msgstr "Ejecute el siguiente comando para aplicar el montaje, o simplemente reinicie la Raspberry Pi:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:111
 msgid ""
 "After rebooting, you can use the ``df -h`` command to check if the SSD is"
 " successfully mounted:"
-msgstr "重启后，可以使用 ``df -h`` 命令检查固态硬盘是否已成功挂载："
+msgstr "Después de reiniciar, puede utilizar el comando ``df -h`` para comprobar si la unidad SSD se ha montado correctamente:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:117
 msgid "You should see ``/dev/nvme0n1`` mounted at ``/home/pi/SSD``."
-msgstr "你应该看到 ``/dev/nvme0n1`` 被挂载到 ``/home/pi/SSD`` 中。"
+msgstr "Deberías ver ``/dev/nvme0n1`` montado en ``/home/pi/SSD``."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:122
 msgid "**Step 6: (Optional) Test Read/Write Speed**"
-msgstr "**第 6 步：（可选）测试读/写速度**"
+msgstr "**Paso 6: (Opcional) Prueba de velocidad de lectura/escritura**"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:123
 msgid ""
 "To get more accurate test results, you can first clear the filesystem "
 "cache:"
-msgstr "要获得更准确的测试结果，可以先清除文件系统缓存："
+msgstr "Para obtener resultados más precisos, primero puede borrar la caché del sistema de archivos:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:129
 msgid "Test write speed (writes an approximately 2GB file):"
-msgstr "测试写入速度（写入约 2GB 的文件）："
+msgstr "Velocidad de escritura de prueba (escribe un archivo de aproximadamente 2 GB):"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:135
 msgid "Test read speed (reads the file just written):"
-msgstr "测试读取速度（读取刚写入的文件）："
+msgstr "Prueba la velocidad de lectura (lee el archivo que se acaba de escribir):"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:141
 msgid "After testing, delete the test file:"
-msgstr "测试结束后，删除测试文件："
+msgstr "Después de la prueba, elimine el archivo de prueba:"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:148
 msgid ""
 "Read/write speeds are affected by various factors like the SSD model, "
 "Raspberry Pi load, etc. The test results are for reference only."
-msgstr "读/写速度受 SSD 型号、Raspberry Pi 负载等多种因素影响。测试结果仅供参考。"
+msgstr "Las velocidades de lectura/escritura se ven afectadas por varios factores como el modelo de SSD, la carga de Raspberry Pi, etc. Los resultados de las pruebas son solo de referencia."
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:152
 msgid ""
 "At this point, you have successfully configured the M.2 NVMe SSD as "
 "expanded storage for your Raspberry Pi 5."
-msgstr "至此，您已成功将 M.2 NVMe 固态硬盘配置为 Raspberry Pi 5 的扩展存储。"
+msgstr "En este punto, ha configurado correctamente la SSD M.2 NVMe como almacenamiento ampliado para su Raspberry Pi 5."
 
