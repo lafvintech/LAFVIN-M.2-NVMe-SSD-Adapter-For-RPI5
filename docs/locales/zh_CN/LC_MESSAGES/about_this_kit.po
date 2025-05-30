@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 10:30+0800\n"
+"PO-Revision-Date: 2025-05-30 10:45+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.6\n"
+
+#: ../../source/about_this_kit.rst:9 bd7eb586274c4fafad248f09f9019da0
+msgid "LAFVIN M.2 NVMe SSD Adapter For RPI5"
+msgstr "用于 RPI5 的 LAFVIN M.2 NVMe 固态硬盘适配器"
+
+#: ../../source/about_this_kit.rst:14 57974e88fbfc47eca6ed86ad5f393926
+msgid "*LAFVIN M.2 NVMe SSD Adapter*"
+msgstr "LAFVIN M.2 NVMe SSD Adapter"
+
+#: ../../source/about_this_kit.rst:17 b6a5ba588b0b49a1a1f7bd9ade86f491
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../source/about_this_kit.rst:19 7a4c8bc94c1c47ccb63d724d7d35a6d0
+msgid ""
+"The LAFVIN M.2 NVMe SSD Adapter is an NVMe M.2 SSD PCIe peripheral board "
+"(PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi "
+"5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, "
+"2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer "
+"and high-speed system booting."
+msgstr ""
+"LAFVIN M.2 NVMe SSD 适配器是专为 Raspberry Pi 5 设计的 NVMe M.2 SSD PCIe "
+"外围板 (PIP)。它利用 Pi 5 的 PCIe 接口连接 NVMe M.2 SSD（兼容 2230、"
+"2242、2260、2280 尺寸，支持 PCIe Gen3），实现快速数据传输和高速系统启动。"
+
+#: ../../source/about_this_kit.rst:21 666e75a4961546fbb03fa5a8819c9b1e
+msgid ""
+"The LAFVIN M.2 NVMe SSD Adapter board conforms to the standard Raspberry "
+"Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, "
+"2242, 2260, and 2280. The kit includes SSD mounting screws, allowing "
+"users to easily install different SSD sizes as needed."
+msgstr ""
+"LAFVIN M.2 NVMe 固态硬盘适配器板符合标准 Raspberry Pi HAT 尺寸，支持四种"
+"常见的 NVMe 固态硬盘尺寸：2230、2242、2260 和 2280。该套件包括固态硬盘安"
+"装螺丝，用户可以根据需要轻松安装不同尺寸的固态硬盘。"
+
+#: ../../source/about_this_kit.rst:28 4936f5cdfa1841259aa77014aaf57b08
+msgid "Features"
+msgstr "功能"
+
+#: ../../source/about_this_kit.rst:32 0315e99814cf4d5497f1afa0f03c6db0
+msgid ""
+"**Designed for Raspberry Pi 5:** Perfectly tailored for the latest "
+"Raspberry Pi 5 single-board computer."
+msgstr ""
+"**专为 Raspberry Pi 5 设计：** 为最新的 Raspberry Pi 5 单板计算机完美定"
+"制。"
+
+#: ../../source/about_this_kit.rst:33 28f0b9f241274beca7a2fbf275a53b8d
+msgid ""
+"**NVMe Support:** Supports installation of M Key and B+M Key M.2 NVMe "
+"SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD "
+"mounting screws, no soldering required."
+msgstr ""
+"**NVMe 支持：** 支持安装 2230、2242、2260 和 2280 格式的 M Key 和 B+M "
+"Key M.2 NVMe 固态硬盘。包括定制的 CNC SSD 安装螺钉，无需焊接。"
+
+#: ../../source/about_this_kit.rst:34 173965da82994849a5a3d8c51339c913
+msgid ""
+"**PCIe Support:** Supports PCIe x1 interface, compatible with both Gen2 "
+"and Gen3 standards."
+msgstr "**支持 PCIe：** 支持 PCIe x1 接口，兼容 Gen2 和 Gen3 标准。"
+
+#: ../../source/about_this_kit.rst:35 932c8dfd1d52477b929f9799f5e70d5f
+msgid ""
+"**Optimized Cooling:** On-board ventilation holes facilitate airflow, "
+"enhancing heat dissipation."
+msgstr "**优化散热：** 板载通风孔可促进空气流通，增强散热效果。"
+
+#: ../../source/about_this_kit.rst:36 85cfe7ae2656455c9dd0e392a96253d7
+msgid ""
+"**Camera/Display FPC Cutouts:** Openings are reserved on the PCB to "
+"allow routing for two display or camera FPC cables."
+msgstr ""
+"**摄像头/显示器 FPC 开孔：** PCB 上预留了开口，以便为两根显示器或摄像头 "
+"FPC 电缆布线。"
+
+#: ../../source/about_this_kit.rst:37 601ce83413694cb992e69748f60f60a6
+msgid ""
+"**Gold-Plated PCB:** Manufactured using an immersion gold process for "
+"superior electrical performance and durability."
+msgstr ""
+"**镀金印刷电路板：** 采用浸金工艺制造，具有卓越的电气性能和耐用性。"
+
+#: ../../source/about_this_kit.rst:38 0f162255337a491d9eb136b8b7563a1f
+msgid ""
+"**Ultra-Short PCIe Traces:** Optimized short PCIe signal routing ensures "
+"more reliable and faster transmission, fully meeting PCIe Gen3 signal "
+"requirements."
+msgstr ""
+"**超短 PCIe 路由：** 优化的 PCIe 短信号路由可确保更可靠、更快速的传输，完"
+"全满足 PCIe Gen3 信号要求。"
+
+#: ../../source/about_this_kit.rst:39 e076cc4da9934e8ebd0c891b73b9f151
+msgid ""
+"**LED Indicator:** Features an onboard LED indicator (\"ACT\") for M.2 "
+"SSD activity status."
+msgstr ""
+"**LED 指示灯：** 板载 LED 指示灯（“ACT”）可显示 M.2 固态硬盘的活动状态。"
+
+#: ../../source/about_this_kit.rst:40 6f64125f489043ea87611514251b7c58
+msgid ""
+"**M.2 Standard Power System:** Integrates an efficient voltage regulator "
+"providing up to 3A for the 3.3V power rail, compliant with M.2 (NGFF) "
+"power specifications."
+msgstr ""
+"**M.2 标准电源系统：** 集成了一个高效稳压器，可为 3.3V 电源轨提供高达 3A "
+"的电流，符合 M.2 (NGFF) 电源规格。"
+
+#: ../../source/about_this_kit.rst:41 24fbe2579d38463c82d5609a8829e2b0
+msgid ""
+"**All Necessary Accessories Included:** The kit contains an FPC PCIe "
+"ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and "
+"an M.2 SSD heatsink kit including a heatsink and thermal pad."
+msgstr ""
+"**包含的所有必要配件：** 套件包含一条 FPC PCIe 带状电缆、M2 和 M2.5 螺"
+"钉、支座、固态硬盘安装支座以及一个 M.2 固态硬盘散热套件（包括散热片和散热"
+"垫）。"
+
+#: ../../source/about_this_kit.rst:-1 ddfa1646d44b4014bdbaee07035dd7b9
+msgid "Included accessories in the kit"
+msgstr "套件中包含的配件"
+
+#: ../../source/about_this_kit.rst:47 3feca7caf1384f3585fb43c4e30d5c9e
+msgid "Application Scenarios"
+msgstr "应用场景"
+
+#: ../../source/about_this_kit.rst:51 8a1ebb1657f641b183085ea0cbcb081e
+msgid ""
+"**Expanded Storage:** Provide your Raspberry Pi with high-speed, large-"
+"capacity additional storage space."
+msgstr ""
+"**扩展存储：** 为你的 Raspberry Pi 提供高速、大容量的额外存储空间。"
+
+#: ../../source/about_this_kit.rst:52 ce24019c40ed4983bf093748ee457fa5
+msgid ""
+"**System Boot Disk:** Use the SSD as the primary system disk for your "
+"Raspberry Pi 5 to experience ultra-fast boot times and responsiveness."
+msgstr ""
+"**系统启动磁盘：** 使用固态硬盘作为 Raspberry Pi 5 的主系统磁盘，体验超快"
+"的启动时间和响应速度。"
+
+#: ../../source/about_this_kit.rst:55 b177809ff1614b73b81c0df0ca6eaaf5
+msgid ""
+"The kit includes all necessary accessories **except** for the Raspberry "
+"Pi 5 board, SD card, and M.2 NVMe SSD itself."
+msgstr ""
+"除 Raspberry Pi 5 电路板、SD 卡和 M.2 NVMe 固态硬盘本身外，该套件还包括所"
+"有必要的配件。"

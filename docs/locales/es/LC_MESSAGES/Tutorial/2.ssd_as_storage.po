@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 10:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:2
+#: 55167eabed0145b2a6bf10e6c80a5a2e
+msgid "2. Using SSD as Expanded Storage (SD Card + SSD)"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:3
+#: 77d3f0e74eda4fc69650e5fd25378120
+msgid ""
+"This chapter will guide you on how to configure an M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5 (meaning the system still runs "
+"on the SD card, and the SSD is used for storing data)."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:5
+#: afa50887ba694c2ea657dfa7c97d3edc
+msgid ""
+"First, log in to your Raspberry Pi 5 system via SSH or by directly "
+"connecting a keyboard and monitor."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:8
+#: c1af143d93a441efbc7c7e23e3e07ce2
+msgid "**Step 1: Modify Boot Configuration**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:9
+#: a24f1ab9339d440ab3bc487e4bcb16f2
+msgid ""
+"Edit the ``/boot/firmware/config.txt`` file. Using the ``nano`` editor is"
+" recommended:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:15
+#: ae6fa49cb60a4ff6be7b29d80c5a1182
+msgid "Add the following two lines at the end of the file:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:22
+#: 1de08282c97b438db7befdf3392e59d7
+msgid ""
+"Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit the "
+"editor."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:28
+#: 6cd324c64ac6458d8df24160804df720
+msgid "**Step 2: Install Hardware**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:29
+#: 5076638fe69f42ceba89f9e89a461b3e
+msgid "Power off the Raspberry Pi 5."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:30
+#: 13273c8bc61641eca18ff6a996ee3484
+msgid ""
+"Following the instructions for your M.2 adapter, correctly install your "
+"NVMe SSD onto the M.2 adapter."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:33
+#: 3be58b5407784143a07d42034cdaa589
+msgid "**Step 3: Check SSD Recognition**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:34
+#: f2ff42d34108451aadcf60f78d9661df
+msgid "Reconnect the power and boot up the Raspberry Pi 5."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:35
+#: fc6bdeb553f748bc8eff4a291422230a
+msgid ""
+"Open a terminal and execute the following commands to check the PCI-E "
+"devices and block device list, confirming if your SSD is recognized by "
+"the system:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:42
+#: 9b337a10061e454aaa61f459185f8979
+msgid ""
+"You should see information similar to ``NVMe SSD`` or the specific model "
+"name, along with a new block device (e.g., ``/dev/nvme0n1``)."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:49
+#: 676f506284314f7687b08cc59c8dad83
+msgid "**Step 4: Format the SSD**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:50
+#: 6da58c7f125041fcb7ae867401b5e5fb
+msgid ""
+"Use the ``mkfs.ext4`` command to format the SSD with the ext4 filesystem."
+" **Please replace ``/dev/nvme0n1`` with the actual device name you "
+"identified in the previous step**."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:53
+#: 7c5f409247e34eeb8c3f7ac0cd9793da
+msgid "Formatting will erase all data on the SSD. Proceed with caution!"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:59
+#: b8189a874f1e4ba2bc53ef69a43cb1da
+msgid ""
+"The system might prompt you about detecting a partition table; type ``y``"
+" and press ``Enter`` to continue."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:61
+#: eaa01967a94c4cfd865215eb049c0d10
+msgid ""
+"After formatting is complete, use ``lsblk`` again to confirm the device "
+"status."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:67
+#: 32716eaec57343518f4fbebc5784ead7
+msgid "Now, ``/dev/nvme0n1`` should no longer have an associated mount point."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:72
+#: 8b6b1879e0184622b14ff3c01c76a613
+msgid "**Step 5: Mount the SSD**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:73
+#: 2787b8e9dd9d4a9985a93d6bd5bfe6af
+msgid ""
+"Create a directory to serve as the mount point for the SSD. For example, "
+"create a directory named ``SSD`` in the user's home directory:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:79
+#: 44a2e45441f3447e84ed0ed1ffd18cc5
+msgid "Manually mount the SSD to this directory:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:87
+#: 57d9ed95e9cf4ce9a5e11f81e0cec7f3
+msgid ""
+"To make the system automatically mount the SSD on every boot, you need to"
+" edit the ``/etc/fstab`` file:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:93
+#: f93aa979cf7949d3a4411699d850e676
+msgid ""
+"Add the following line at the end of the file. **Again, be sure to "
+"replace the device name and mount path with your actual names**:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:99
+#: d0d84a34757d4e66813cea69d19ccbe5
+msgid ""
+"This assumes your username is ``pi`` and the mount point is "
+"``/home/pi/SSD``. Modify according to your actual setup."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:101
+#: 4537496871a146fbaf62dbaf3756dd8a
+msgid "Press ``Ctrl+X``, ``Y``, ``Enter`` to save and exit."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:105
+#: 0355c11dd83c4a29b6c0e8945bb045ca
+msgid ""
+"Execute the following command to apply the mount, or simply reboot the "
+"Raspberry Pi:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:111
+#: 285a83420df2476e823ba22f95849223
+msgid ""
+"After rebooting, you can use the ``df -h`` command to check if the SSD is"
+" successfully mounted:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:117
+#: 79581832f5184eb3bb8bc4c986eabcec
+msgid "You should see ``/dev/nvme0n1`` mounted at ``/home/pi/SSD``."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:122
+#: 54150cc1537b49019cafd26885615d9e
+msgid "**Step 6: (Optional) Test Read/Write Speed**"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:123
+#: 99df0b7ba9f1447188fc23e9a922bf51
+msgid ""
+"To get more accurate test results, you can first clear the filesystem "
+"cache:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:129
+#: ef80c7a23eb24ad38cce7ecae1d84058
+msgid "Test write speed (writes an approximately 2GB file):"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:135
+#: 633660b1b72a4f22adb00d47e6b2876f
+msgid "Test read speed (reads the file just written):"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:141
+#: 683a80c7ff774e3c958296924fc5c87a
+msgid "After testing, delete the test file:"
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:148
+#: d3ce6a89199944b1a6e33f4f1bee965f
+msgid ""
+"Read/write speeds are affected by various factors like the SSD model, "
+"Raspberry Pi load, etc. The test results are for reference only."
+msgstr ""
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:152
+#: 4c4a213ce97f4bf39befc8dce8d71a5d
+msgid ""
+"At this point, you have successfully configured the M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5."
+msgstr ""
+
