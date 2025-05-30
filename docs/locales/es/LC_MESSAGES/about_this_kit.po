@@ -7,46 +7,38 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 15:34+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
+"PO-Revision-Date: 2025-05-30 16:49+0800\n"
+"Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
+"X-Generator: Poedit 3.6\n"
 
 #: ../../source/about_this_kit.rst:9
 msgid "LAFVIN M.2 NVMe SSD Adapter For RPI5"
-msgstr "LAFVIN Adaptador M.2 NVMe SSD Para RPI5"
+msgstr "LAFVIN M.2 NVMe SSD Adapter For RPI5"
 
 #: ../../source/about_this_kit.rst:14
 msgid "*LAFVIN M.2 NVMe SSD Adapter*"
-msgstr "*LAFVIN M.2 NVMe SSD Adapter* (Adaptador de SSD M.2 NVMe)"
+msgstr "*LAFVIN M.2 NVMe SSD Adapter*"
 
 #: ../../source/about_this_kit.rst:17
 msgid "Introduction"
 msgstr "Introducción"
 
 #: ../../source/about_this_kit.rst:19
-msgid ""
-"The LAFVIN M.2 NVMe SSD Adapter is an NVMe M.2 SSD PCIe peripheral board "
-"(PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi "
-"5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, "
-"2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer and"
-" high-speed system booting."
+msgid "The LAFVIN M.2 NVMe SSD Adapter is an NVMe M.2 SSD PCIe peripheral board (PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi 5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, 2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer and high-speed system booting."
 msgstr "El LAFVIN M.2 NVMe SSD Adapter es una placa periférica (PIP) NVMe M.2 SSD PCIe diseñada específicamente para la Raspberry Pi 5. Utiliza la interfaz PCIe de la Pi 5 para conectar SSD M.2 NVMe (compatible con los tamaños 2230, 2242, 2260, 2280, compatible con PCIe Gen3), lo que permite una rápida transferencia de datos y el arranque del sistema a alta velocidad."
 
 #: ../../source/about_this_kit.rst:21
-msgid ""
-"The LAFVIN M.2 NVMe SSD Adapter board conforms to the standard Raspberry "
-"Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, "
-"2242, 2260, and 2280. The kit includes SSD mounting screws, allowing "
-"users to easily install different SSD sizes as needed."
+msgid "The LAFVIN M.2 NVMe SSD Adapter board conforms to the standard Raspberry Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, 2242, 2260, and 2280. The kit includes SSD mounting screws, allowing users to easily install different SSD sizes as needed."
 msgstr "La placa LAFVIN M.2 NVMe SSD Adapter se ajusta a las dimensiones estándar Raspberry Pi HAT y admite los cuatro tamaños de SSD NVMe más comunes: 2230, 2242, 2260 y 2280. El kit incluye tornillos de montaje SSD, lo que permite a los usuarios instalar fácilmente diferentes tamaños de SSD según sea necesario."
 
 #: ../../source/about_this_kit.rst:28
@@ -54,67 +46,43 @@ msgid "Features"
 msgstr "Características"
 
 #: ../../source/about_this_kit.rst:32
-msgid ""
-"**Designed for Raspberry Pi 5:** Perfectly tailored for the latest "
-"Raspberry Pi 5 single-board computer."
+msgid "**Designed for Raspberry Pi 5:** Perfectly tailored for the latest Raspberry Pi 5 single-board computer."
 msgstr "**Diseñado para Raspberry Pi 5:** Perfectamente adaptado para el último ordenador de placa única Raspberry Pi 5."
 
 #: ../../source/about_this_kit.rst:33
-msgid ""
-"**NVMe Support:** Supports installation of M Key and B+M Key M.2 NVMe "
-"SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD "
-"mounting screws, no soldering required."
+msgid "**NVMe Support:** Supports installation of M Key and B+M Key M.2 NVMe SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD mounting screws, no soldering required."
 msgstr "**Compatibilidad con NVMe:** Admite la instalación de SSD M Key y B+M Key M.2 NVMe en formatos 2230, 2242, 2260 y 2280. Incluye tornillos de montaje de SSD CNC personalizados, no es necesario soldar."
 
 #: ../../source/about_this_kit.rst:34
-msgid ""
-"**PCIe Support:** Supports PCIe x1 interface, compatible with both Gen2 "
-"and Gen3 standards."
+msgid "**PCIe Support:** Supports PCIe x1 interface, compatible with both Gen2 and Gen3 standards."
 msgstr "**Compatible con PCIe:** Admite la interfaz PCIe x1, compatible con los estándares Gen2 y Gen3."
 
 #: ../../source/about_this_kit.rst:35
-msgid ""
-"**Optimized Cooling:** On-board ventilation holes facilitate airflow, "
-"enhancing heat dissipation."
+msgid "**Optimized Cooling:** On-board ventilation holes facilitate airflow, enhancing heat dissipation."
 msgstr "**Refrigeración optimizada:** Los orificios de ventilación integrados facilitan el flujo de aire, mejorando la disipación del calor."
 
 #: ../../source/about_this_kit.rst:36
-msgid ""
-"**Camera/Display FPC Cutouts:** Openings are reserved on the PCB to allow"
-" routing for two display or camera FPC cables."
+msgid "**Camera/Display FPC Cutouts:** Openings are reserved on the PCB to allow routing for two display or camera FPC cables."
 msgstr "**Recortes para FPC de cámara/pantalla:** Se reservan huecos en la placa de circuito impreso para permitir el paso de dos cables de FPC de cámara o pantalla."
 
 #: ../../source/about_this_kit.rst:37
-msgid ""
-"**Gold-Plated PCB:** Manufactured using an immersion gold process for "
-"superior electrical performance and durability."
+msgid "**Gold-Plated PCB:** Manufactured using an immersion gold process for superior electrical performance and durability."
 msgstr "**Placa de circuito impreso chapada en oro:** Fabricada mediante un proceso de inmersión en oro para obtener un rendimiento eléctrico y una durabilidad superiores."
 
 #: ../../source/about_this_kit.rst:38
-msgid ""
-"**Ultra-Short PCIe Traces:** Optimized short PCIe signal routing ensures "
-"more reliable and faster transmission, fully meeting PCIe Gen3 signal "
-"requirements."
+msgid "**Ultra-Short PCIe Traces:** Optimized short PCIe signal routing ensures more reliable and faster transmission, fully meeting PCIe Gen3 signal requirements."
 msgstr "**Trazados de señal PCIe ultracortos:** El trazado optimizado de la señal PCIe corta garantiza una transmisión más fiable y rápida, cumpliendo plenamente los requisitos de la señal PCIe Gen3."
 
 #: ../../source/about_this_kit.rst:39
-msgid ""
-"**LED Indicator:** Features an onboard LED indicator (\"ACT\") for M.2 "
-"SSD activity status."
-msgstr "**Indicador LED:** Cuenta con un indicador LED integrado (\ "ACT\") para el estado de actividad M.2 SSD."
+msgid "**LED Indicator:** Features an onboard LED indicator (\"ACT\") for M.2 SSD activity status."
+msgstr "**Indicador LED:** Cuenta con un indicador LED integrado (\"ACT\") para el estado de actividad M.2 SSD."
 
 #: ../../source/about_this_kit.rst:40
-msgid ""
-"**M.2 Standard Power System:** Integrates an efficient voltage regulator "
-"providing up to 3A for the 3.3V power rail, compliant with M.2 (NGFF) "
-"power specifications."
+msgid "**M.2 Standard Power System:** Integrates an efficient voltage regulator providing up to 3A for the 3.3V power rail, compliant with M.2 (NGFF) power specifications."
 msgstr "**Sistema de alimentación estándar M.2:** Integra un eficiente regulador de voltaje que proporciona hasta 3 A para el carril de alimentación de 3,3 V, conforme a las especificaciones de alimentación M.2 (NGFF)."
 
 #: ../../source/about_this_kit.rst:41
-msgid ""
-"**All Necessary Accessories Included:** The kit contains an FPC PCIe "
-"ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and "
-"an M.2 SSD heatsink kit including a heatsink and thermal pad."
+msgid "**All Necessary Accessories Included:** The kit contains an FPC PCIe ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and an M.2 SSD heatsink kit including a heatsink and thermal pad."
 msgstr "**Todos los accesorios necesarios incluidos:** El kit contiene un cable de cinta FPC PCIe, tornillos M2 y M2.5, separadores, separadores de montaje SSD y un kit de disipador térmico SSD M.2 que incluye un disipador térmico y una almohadilla térmica."
 
 #: ../../source/about_this_kit.rst:-1
@@ -126,20 +94,13 @@ msgid "Application Scenarios"
 msgstr "Escenarios de aplicación"
 
 #: ../../source/about_this_kit.rst:51
-msgid ""
-"**Expanded Storage:** Provide your Raspberry Pi with high-speed, large-"
-"capacity additional storage space."
+msgid "**Expanded Storage:** Provide your Raspberry Pi with high-speed, large-capacity additional storage space."
 msgstr "**Almacenamiento ampliado:** Proporcione a su Raspberry Pi espacio de almacenamiento adicional de gran capacidad y alta velocidad."
 
 #: ../../source/about_this_kit.rst:52
-msgid ""
-"**System Boot Disk:** Use the SSD as the primary system disk for your "
-"Raspberry Pi 5 to experience ultra-fast boot times and responsiveness."
+msgid "**System Boot Disk:** Use the SSD as the primary system disk for your Raspberry Pi 5 to experience ultra-fast boot times and responsiveness."
 msgstr "**Utiliza el SSD como disco principal del sistema para tu Raspberry Pi 5 y disfruta de tiempos de arranque y capacidad de respuesta ultrarrápidos."
 
 #: ../../source/about_this_kit.rst:55
-msgid ""
-"The kit includes all necessary accessories **except** for the Raspberry "
-"Pi 5 board, SD card, and M.2 NVMe SSD itself."
+msgid "The kit includes all necessary accessories **except** for the Raspberry Pi 5 board, SD card, and M.2 NVMe SSD itself."
 msgstr "El kit incluye todos los accesorios necesarios **excepto** la placa Raspberry Pi 5, la tarjeta SD y el propio SSD M.2 NVMe."
-
