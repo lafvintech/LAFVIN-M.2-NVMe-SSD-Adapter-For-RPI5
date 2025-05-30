@@ -23,45 +23,45 @@ msgstr ""
 #: ../../source/Tutorial/1.hardware_setup.rst:4
 #: 5336cf102b8043b9a07e9389d03d2231
 msgid "1. Hardware Setup"
-msgstr ""
+msgstr "1.硬件设置"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:6
 #: 8bf936b30cc54e77bbbdf30cc3de577a
 msgid ""
 "This section guides you through the hardware assembly process for the M.2"
 " NVMe SSD adapter."
-msgstr ""
+msgstr "本节将指导您完成 M.2 NVMe 固态硬盘适配器的硬件组装过程。"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:8
 #: 11239781e5a94b26a68d8e1a6f4523c7
 msgid ""
 "You can refer to the video tutorial below. Please follow the steps in the"
 " video to install your M.2 NVMe SSD adapter:"
-msgstr ""
+msgstr "您可以参考下面的视频教程。请按照视频中的步骤安装 M.2 NVMe 固态硬盘适配器："
 
 #: ../../source/Tutorial/1.hardware_setup.rst:16
 #: 4e3307bd2227476d9800f5ef6ab4a6c0
 msgid "2. Install VNC Viewer Software"
-msgstr ""
+msgstr "2.安装 VNC 查看器软件"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:17
 #: 9308ab29594145868a81f51308b94f68
 msgid ""
 "Please visit the official RealVNC website below to download and install "
 "the VNC Viewer client according to your operating system:"
-msgstr ""
+msgstr "请访问以下 RealVNC 官方网站，根据操作系统下载并安装 VNC Viewer 客户端："
 
 #: ../../source/Tutorial/1.hardware_setup.rst:19
 #: 6858a09ce5164a29954e57d3428a8c89
 msgid ""
 "`Download VNC Viewer "
 "<https://www.realvnc.com/en/connect/download/viewer/>`_"
-msgstr ""
+msgstr "下载 VNC 查看器 <https://www.realvnc.com/en/connect/download/viewer/>`_"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:-1
 #: 5f5434f731a34beea8127e9a14339ba0
 msgid "VNC Viewer Download Page"
-msgstr ""
+msgstr "VNC Viewer 下载页面"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:24
 #: 43e3edf4db694a76a95ce4a3b14a1b4d
@@ -69,12 +69,12 @@ msgid ""
 "After downloading, follow the installation wizard to complete the setup. "
 "Then, launch VNC Viewer, enter your Raspberry Pi's IP address, and click "
 "the connect button."
-msgstr ""
+msgstr "下载后，按照安装向导完成设置。然后，启动 VNC Viewer，输入 Raspberry Pi 的 IP 地址，点击连接按钮。"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:-1
 #: a6b249fef0814afd811a4fb795c42279
 msgid "VNC Viewer Connection Window"
-msgstr ""
+msgstr "VNC 浏览器连接窗口"
 
 #: ../../source/Tutorial/1.hardware_setup.rst:30
 #: af18c4917834477b9ed1aae2052fe9eb
@@ -86,5 +86,4 @@ msgid ""
 "ensure that you have enabled the VNC server on the Raspberry PI (this can"
 " be done by running 'sudo raspi-config' 'and then selecting Interface "
 "Options -> VNC -> Yes)."
-msgstr ""
-
+msgstr "您需要知道 Raspberry PI 的 IP 地址才能通过 VNC 进行连接。通常，你可以在计算机的命令行或终端中使用 "ping-4 raspberrypi.local "命令，或者通过查看路由器上的连接设备列表来查找 IP 地址。此外，请确保已启用 Raspberry PI 上的 VNC 服务器（可通过运行 "sudo raspi-config"，然后选择 "接口选项" -> "VNC" -> "是"）。"
