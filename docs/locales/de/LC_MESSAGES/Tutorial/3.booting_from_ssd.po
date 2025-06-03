@@ -57,7 +57,7 @@ msgid ""
 "If you haven't enabled the VNC server yet, enable it via ``raspi-config``"
 " or the desktop environment's settings. * Enter ``sudo raspi-config`` in "
 "the terminal * Select ``Interface Options`` -> ``VNC`` -> ``Yes``."
-msgstr "Wenn Sie den VNC-Server noch nicht aktiviert haben, aktivieren Sie ihn über ``raspi-config`` oder die Einstellungen der Desktop-Umgebung. * Geben Sie ``udo raspi-config`` im Terminal ein * Wählen Sie ``Interface Options`` -> ``VNC`` -> ``Yes``."
+msgstr "Wenn Sie den VNC-Server noch nicht aktiviert haben, aktivieren Sie ihn über ``raspi-config`` oder die Einstellungen der Desktop-Umgebung. * Geben Sie ``sudo raspi-config`` im Terminal ein * Wählen Sie ``Interface Options`` -> ``VNC`` -> ``Yes``."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:19
 msgid ""
@@ -156,7 +156,7 @@ msgstr "Beispiel EEPROM-Konfigurationsinhalt (einschließlich PCIE_PROBE und BOO
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:66
 msgid "Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit."
-msgstr "Drücken Sie ``Strg+X``, dann ``Y`` und schließlich ``Eingabe`` zum Speichern und Beenden."
+msgstr "Drücken Sie ``Ctrl+X``, dann ``Y`` und schließlich ``Enter`` zum Speichern und Beenden."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:69
 msgid "**Step 4: Boot from SSD**"
