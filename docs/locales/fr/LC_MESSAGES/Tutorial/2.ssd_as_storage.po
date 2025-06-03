@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:2
+msgid "2. Using SSD as Expanded Storage (SD Card + SSD)"
+msgstr "2. Utilisation d'un disque SSD comme espace de stockage étendu (carte SD + disque SSD)"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:3
+msgid ""
+"This chapter will guide you on how to configure an M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5 (meaning the system still runs "
+"on the SD card, and the SSD is used for storing data)."
+msgstr "Ce chapitre vous explique comment configurer un disque SSD M.2 NVMe en tant que stockage étendu pour votre Raspberry Pi 5 (ce qui signifie que le système fonctionne toujours sur la carte SD et que le disque SSD est utilisé pour stocker les données)."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:5
+msgid ""
+"First, log in to your Raspberry Pi 5 system via SSH or by directly "
+"connecting a keyboard and monitor."
+msgstr "Tout d'abord, connectez-vous à votre système Raspberry Pi 5 via SSH ou en connectant directement un clavier et un moniteur."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:8
+msgid "**Step 1: Modify Boot Configuration**"
+msgstr "**Étape 1 : Modifier la configuration de l'amorçage**"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:9
+msgid ""
+"Edit the ``/boot/firmware/config.txt`` file. Using the ``nano`` editor is"
+" recommended:"
+msgstr "Editez le fichier ``/boot/firmware/config.txt``. L'utilisation de l'éditeur ``nano`` est recommandée :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:15
+msgid "Add the following two lines at the end of the file:"
+msgstr "Ajoutez les deux lignes suivantes à la fin du fichier :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:22
+msgid ""
+"Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit the "
+"editor."
+msgstr "Appuyez sur ``Ctrl+X``, puis sur ``Y``, et enfin sur ``Enter`` pour sauvegarder et quitter l'éditeur."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:28
+msgid "**Step 2: Install Hardware**"
+msgstr "**Étape 2 : Installation du matériel**"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:29
+msgid "Power off the Raspberry Pi 5."
+msgstr "Éteignez le Raspberry Pi 5."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:30
+msgid ""
+"Following the instructions for your M.2 adapter, correctly install your "
+"NVMe SSD onto the M.2 adapter."
+msgstr "En suivant les instructions de votre adaptateur M.2, installez correctement votre SSD NVMe sur l'adaptateur M.2."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:33
+msgid "**Step 3: Check SSD Recognition**"
+msgstr "**Étape 3 : Vérifier la reconnaissance du disque dur SSD**"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:34
+msgid "Reconnect the power and boot up the Raspberry Pi 5."
+msgstr "Rebranchez l'alimentation et démarrez le Raspberry Pi 5."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:35
+msgid ""
+"Open a terminal and execute the following commands to check the PCI-E "
+"devices and block device list, confirming if your SSD is recognized by "
+"the system:"
+msgstr "Ouvrez un terminal et exécutez les commandes suivantes pour vérifier les périphériques PCI-E et la liste des périphériques de bloc, afin de confirmer que votre disque SSD est reconnu par le système :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:42
+msgid ""
+"You should see information similar to ``NVMe SSD`` or the specific model "
+"name, along with a new block device (e.g., ``/dev/nvme0n1``)."
+msgstr "Vous devriez voir des informations similaires à ``NVMe SSD`` ou le nom du modèle spécifique, ainsi qu'un nouveau périphérique bloc (par exemple, ``dev/nvme0n1``)."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:49
+msgid "**Step 4: Format the SSD**"
+msgstr "**Étape 4 : Formater le disque dur SSD**."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:50
+msgid ""
+"Use the ``mkfs.ext4`` command to format the SSD with the ext4 filesystem."
+" **Please replace ``/dev/nvme0n1`` with the actual device name you "
+"identified in the previous step**."
+msgstr "Utilisez la commande ``mkfs.ext4`` pour formater le SSD avec le système de fichiers ext4. **Remplacez ``dev/nvme0n1`` par le nom du périphérique que vous avez identifié à l'étape précédente**."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:53
+msgid "Formatting will erase all data on the SSD. Proceed with caution!"
+msgstr "Le formatage efface toutes les données du disque dur SSD. Procédez avec prudence !"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:59
+msgid ""
+"The system might prompt you about detecting a partition table; type ``y``"
+" and press ``Enter`` to continue."
+msgstr "Le système peut vous demander de détecter une table de partition ; tapez ``y`` et appuyez sur ``Enter`` pour continuer."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:61
+msgid ""
+"After formatting is complete, use ``lsblk`` again to confirm the device "
+"status."
+msgstr "Une fois le formatage terminé, utilisez à nouveau ``lsblk`` pour confirmer l'état du périphérique."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:67
+msgid "Now, ``/dev/nvme0n1`` should no longer have an associated mount point."
+msgstr "Maintenant, ``dev/nvme0n1`` ne devrait plus avoir de point de montage associé."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:72
+msgid "**Step 5: Mount the SSD**"
+msgstr "**Étape 5 : Monter le disque dur SSD**."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:73
+msgid ""
+"Create a directory to serve as the mount point for the SSD. For example, "
+"create a directory named ``SSD`` in the user's home directory:"
+msgstr "Créez un répertoire qui servira de point de montage pour le SSD. Par exemple, créez un répertoire nommé ``SSD`` dans le répertoire personnel de l'utilisateur :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:79
+msgid "Manually mount the SSD to this directory:"
+msgstr "Monter manuellement le disque SSD dans ce répertoire :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:87
+msgid ""
+"To make the system automatically mount the SSD on every boot, you need to"
+" edit the ``/etc/fstab`` file:"
+msgstr "Pour que le système monte automatiquement le SSD à chaque démarrage, vous devez éditer le fichier ``/etc/fstab`` :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:93
+msgid ""
+"Add the following line at the end of the file. **Again, be sure to "
+"replace the device name and mount path with your actual names**:"
+msgstr "Ajoutez la ligne suivante à la fin du fichier. **Encore une fois, assurez-vous de remplacer le nom du périphérique et le chemin de montage par vos noms réels** :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:99
+msgid ""
+"This assumes your username is ``pi`` and the mount point is "
+"``/home/pi/SSD``. Modify according to your actual setup."
+msgstr "Ceci suppose que votre nom d'utilisateur est ``pi`` et que le point de montage est ``/home/pi/SSD``. Modifiez en fonction de votre configuration réelle."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:101
+msgid "Press ``Ctrl+X``, ``Y``, ``Enter`` to save and exit."
+msgstr "Appuyez sur ``Ctrl+X``, ``Y``, ``Enter`` pour sauvegarder et quitter."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:105
+msgid ""
+"Execute the following command to apply the mount, or simply reboot the "
+"Raspberry Pi:"
+msgstr "Exécutez la commande suivante pour appliquer le montage, ou redémarrez simplement le Raspberry Pi :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:111
+msgid ""
+"After rebooting, you can use the ``df -h`` command to check if the SSD is"
+" successfully mounted:"
+msgstr "Après le redémarrage, vous pouvez utiliser la commande ``df -h`` pour vérifier si le SSD est monté avec succès :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:117
+msgid "You should see ``/dev/nvme0n1`` mounted at ``/home/pi/SSD``."
+msgstr "Vous devriez voir ``dev/nvme0n1`` monté sur ``/home/pi/SSD``."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:122
+msgid "**Step 6: (Optional) Test Read/Write Speed**"
+msgstr "**Étape 6 : (Facultatif) Test de la vitesse de lecture/écriture**"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:123
+msgid ""
+"To get more accurate test results, you can first clear the filesystem "
+"cache:"
+msgstr "Pour obtenir des résultats de test plus précis, vous pouvez d'abord vider le cache du système de fichiers :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:129
+msgid "Test write speed (writes an approximately 2GB file):"
+msgstr "Test de la vitesse d'écriture (écriture d'un fichier d'environ 2 Go) :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:135
+msgid "Test read speed (reads the file just written):"
+msgstr "Test de la vitesse de lecture (lecture du fichier qui vient d'être écrit) :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:141
+msgid "After testing, delete the test file:"
+msgstr "Après le test, supprimez le fichier de test :"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:148
+msgid ""
+"Read/write speeds are affected by various factors like the SSD model, "
+"Raspberry Pi load, etc. The test results are for reference only."
+msgstr "Les vitesses de lecture/écriture sont affectées par divers facteurs tels que le modèle de SSD, la charge du Raspberry Pi, etc. Les résultats des tests sont donnés à titre indicatif."
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:152
+msgid ""
+"At this point, you have successfully configured the M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5."
+msgstr "À ce stade, vous avez configuré avec succès le SSD M.2 NVMe en tant que stockage étendu pour votre Raspberry Pi 5."
+

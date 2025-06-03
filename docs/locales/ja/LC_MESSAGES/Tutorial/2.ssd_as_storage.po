@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:2
+msgid "2. Using SSD as Expanded Storage (SD Card + SSD)"
+msgstr "2.SSDを拡張ストレージとして使用する（SDカード＋SSD）"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:3
+msgid ""
+"This chapter will guide you on how to configure an M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5 (meaning the system still runs "
+"on the SD card, and the SSD is used for storing data)."
+msgstr "この章では、M.2 NVMe SSD を Raspberry Pi 5 の拡張ストレージとして設定する方法を説明します（システムは引き続き SD カードで実行し、SSD はデータの保存に使用するという意味です）。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:5
+msgid ""
+"First, log in to your Raspberry Pi 5 system via SSH or by directly "
+"connecting a keyboard and monitor."
+msgstr "まず、SSHかキーボードとモニターを直接接続してRaspberry Pi 5にログインします。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:8
+msgid "**Step 1: Modify Boot Configuration**"
+msgstr "**ステップ1：ブート設定の変更**」。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:9
+msgid ""
+"Edit the ``/boot/firmware/config.txt`` file. Using the ``nano`` editor is"
+" recommended:"
+msgstr "boot/firmware/config.txt`` ファイルを編集します。nano`` エディターの使用を推奨します："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:15
+msgid "Add the following two lines at the end of the file:"
+msgstr "ファイルの最後に以下の2行を追加する："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:22
+msgid ""
+"Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit the "
+"editor."
+msgstr "Ctrl+X`` を押し、次に ``Y`` を押し、最後に ``Enter`` を押して保存し、エディタを終了します。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:28
+msgid "**Step 2: Install Hardware**"
+msgstr "**ステップ2：ハードウェアの取り付け"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:29
+msgid "Power off the Raspberry Pi 5."
+msgstr "Raspberry Pi 5の電源を切ります。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:30
+msgid ""
+"Following the instructions for your M.2 adapter, correctly install your "
+"NVMe SSD onto the M.2 adapter."
+msgstr "M.2アダプタの説明書に従って、NVMe SSDをM.2アダプタに正しく取り付けます。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:33
+msgid "**Step 3: Check SSD Recognition**"
+msgstr "**ステップ3: SSDの認識を確認する**。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:34
+msgid "Reconnect the power and boot up the Raspberry Pi 5."
+msgstr "電源を再接続し、Raspberry Pi 5を起動します。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:35
+msgid ""
+"Open a terminal and execute the following commands to check the PCI-E "
+"devices and block device list, confirming if your SSD is recognized by "
+"the system:"
+msgstr "ターミナルを開き、以下のコマンドを実行してPCI-Eデバイスとブロック・デバイス・リストをチェックし、SSDがシステムに認識されているかどうかを確認します："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:42
+msgid ""
+"You should see information similar to ``NVMe SSD`` or the specific model "
+"name, along with a new block device (e.g., ``/dev/nvme0n1``)."
+msgstr "NVMe SSD`` または特定のモデル名のような情報と、新しいブロックデバイス（例：``/dev/nvme0n1``）が表示されるはずです。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:49
+msgid "**Step 4: Format the SSD**"
+msgstr "**ステップ4：SSDのフォーマット"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:50
+msgid ""
+"Use the ``mkfs.ext4`` command to format the SSD with the ext4 filesystem."
+" **Please replace ``/dev/nvme0n1`` with the actual device name you "
+"identified in the previous step**."
+msgstr "mkfs.ext4``コマンドを使ってSSDをext4ファイルシステムでフォーマットします。/dev/nvme0n1``を前のステップで確認した実際のデバイス名に置き換えてください**。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:53
+msgid "Formatting will erase all data on the SSD. Proceed with caution!"
+msgstr "フォーマットを行うと、SSD上のすべてのデータが消去されます。注意して行ってください！"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:59
+msgid ""
+"The system might prompt you about detecting a partition table; type ``y``"
+" and press ``Enter`` to continue."
+msgstr "y`` とタイプし、``Enter`` を押して続行します。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:61
+msgid ""
+"After formatting is complete, use ``lsblk`` again to confirm the device "
+"status."
+msgstr "フォーマットが完了したら、もう一度 ``lsblk`` を使ってデバイスの状態を確認する。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:67
+msgid "Now, ``/dev/nvme0n1`` should no longer have an associated mount point."
+msgstr "これで、``/dev/nvme0n1`` には関連するマウントポイントがなくなったはずである。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:72
+msgid "**Step 5: Mount the SSD**"
+msgstr "**ステップ5：SSDのマウント"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:73
+msgid ""
+"Create a directory to serve as the mount point for the SSD. For example, "
+"create a directory named ``SSD`` in the user's home directory:"
+msgstr "SSDのマウントポイントとなるディレクトリを作成します。例えば、ユーザーのホームディレクトリに ``SSD`` という名前のディレクトリを作成する："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:79
+msgid "Manually mount the SSD to this directory:"
+msgstr "SSDをこのディレクトリに手動でマウントする："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:87
+msgid ""
+"To make the system automatically mount the SSD on every boot, you need to"
+" edit the ``/etc/fstab`` file:"
+msgstr "起動時にシステムが自動的にSSDをマウントするようにするには、``/etc/fstab``ファイルを編集する必要がある："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:93
+msgid ""
+"Add the following line at the end of the file. **Again, be sure to "
+"replace the device name and mount path with your actual names**:"
+msgstr "ファイルの最後に以下の行を追加する。**デバイス名とマウント・パスは必ず実際の名前に置き換えてください**："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:99
+msgid ""
+"This assumes your username is ``pi`` and the mount point is "
+"``/home/pi/SSD``. Modify according to your actual setup."
+msgstr "これは、ユーザー名が ``pi`` で、マウントポイントが ``/home/pi/SSD`` であると仮定しています。実際のセットアップに応じて変更してください。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:101
+msgid "Press ``Ctrl+X``, ``Y``, ``Enter`` to save and exit."
+msgstr "Ctrl+X``, ``Y``, ``Enter`` を押して保存し、終了する。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:105
+msgid ""
+"Execute the following command to apply the mount, or simply reboot the "
+"Raspberry Pi:"
+msgstr "以下のコマンドを実行してマウントを適用するか、単にRaspberry Piを再起動する："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:111
+msgid ""
+"After rebooting, you can use the ``df -h`` command to check if the SSD is"
+" successfully mounted:"
+msgstr "再起動後、``df -h`` コマンドを使ってSSDが正常にマウントされているかどうかを確認することができる："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:117
+msgid "You should see ``/dev/nvme0n1`` mounted at ``/home/pi/SSD``."
+msgstr "home/pi/SSD``に ``/dev/nvme0n1`` がマウントされているはずである。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:122
+msgid "**Step 6: (Optional) Test Read/Write Speed**"
+msgstr "**ステップ6：（オプション）読み取り/書き込み速度のテスト**。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:123
+msgid ""
+"To get more accurate test results, you can first clear the filesystem "
+"cache:"
+msgstr "より正確なテスト結果を得るには、まずファイルシステムのキャッシュをクリアする："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:129
+msgid "Test write speed (writes an approximately 2GB file):"
+msgstr "書き込み速度のテスト（約2GBのファイルを書き込む）："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:135
+msgid "Test read speed (reads the file just written):"
+msgstr "読み取り速度のテスト（書き込まれたばかりのファイルを読み取る）："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:141
+msgid "After testing, delete the test file:"
+msgstr "テスト終了後、テストファイルを削除する："
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:148
+msgid ""
+"Read/write speeds are affected by various factors like the SSD model, "
+"Raspberry Pi load, etc. The test results are for reference only."
+msgstr "読み書き速度は、SSDモデルやRaspberry Piの負荷など、さまざまな要因に影響されます。テスト結果は参考値です。"
+
+#: ../../source/Tutorial/2.ssd_as_storage.rst:152
+msgid ""
+"At this point, you have successfully configured the M.2 NVMe SSD as "
+"expanded storage for your Raspberry Pi 5."
+msgstr "この時点で、M.2 NVMe SSDをRaspberry Pi 5の拡張ストレージとして設定することに成功しました。"
+

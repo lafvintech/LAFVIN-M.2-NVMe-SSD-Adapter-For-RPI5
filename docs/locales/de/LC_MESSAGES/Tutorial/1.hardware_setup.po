@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 10:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:4
+msgid "1. Hardware Setup"
+msgstr "1. Hardware-Einrichtung"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:6
+msgid ""
+"This section guides you through the hardware assembly process for the M.2"
+" NVMe SSD adapter."
+msgstr "Dieser Abschnitt führt Sie durch den Hardware-Montageprozess für den M.2 NVMe-SSD-Adapter."
+
+#: ../../source/Tutorial/1.hardware_setup.rst:8
+msgid ""
+"You can refer to the video tutorial below. Please follow the steps in the"
+" video to install your M.2 NVMe SSD adapter:"
+msgstr "Sie können sich das unten stehende Video-Tutorial ansehen. Bitte folgen Sie den Schritten im Video, um Ihren M.2 NVMe SSD-Adapter zu installieren:"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:16
+msgid "Install VNC Viewer Software"
+msgstr "VNC-Viewer-Software installieren"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:17
+msgid ""
+"Please visit the official RealVNC website below to download and install "
+"the VNC Viewer client according to your operating system:"
+msgstr "Bitte besuchen Sie die offizielle RealVNC-Website unten, um den VNC-Viewer-Client für Ihr Betriebssystem herunterzuladen und zu installieren:"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:19
+msgid ""
+"`Download VNC Viewer "
+"<https://www.realvnc.com/en/connect/download/viewer/>`_"
+msgstr "VNC-Viewer herunterladen <https://www.realvnc.com/en/connect/download/viewer/>`_"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:-1
+msgid "VNC Viewer Download Page"
+msgstr "VNC-Viewer Download-Seite"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:24
+msgid ""
+"After downloading, follow the installation wizard to complete the setup. "
+"Then, launch VNC Viewer, enter your Raspberry Pi's IP address, and click "
+"the connect button."
+msgstr "Nach dem Herunterladen folgen Sie dem Installationsassistenten, um die Einrichtung abzuschließen. Starten Sie dann VNC Viewer, geben Sie die IP-Adresse Ihres Raspberry Pi ein und klicken Sie auf die Schaltfläche Verbinden."
+
+#: ../../source/Tutorial/1.hardware_setup.rst:-1
+msgid "VNC Viewer Connection Window"
+msgstr "VNC-Viewer-Verbindungsfenster"
+
+#: ../../source/Tutorial/1.hardware_setup.rst:30
+msgid ""
+"You need to know the IP address of the Raspberry PI to connect through "
+"VNC. Usually, you can use the 'ping -4 raspberrypi.local' command in the "
+"command line or terminal of your computer, or find the IP address by "
+"checking the list of connected devices on your router. Also, please "
+"ensure that you have enabled the VNC server on the Raspberry PI (this can"
+" be done by running 'sudo raspi-config' 'and then selecting Interface "
+"Options -> VNC -> Yes)."
+msgstr "Sie müssen die IP-Adresse des Raspberry PI kennen, um eine Verbindung über VNC herzustellen. Normalerweise können Sie den Befehl "ping -4 raspberrypi.local" in der Kommandozeile oder im Terminal Ihres Computers verwenden oder die IP-Adresse durch Überprüfen der Liste der angeschlossenen Geräte auf Ihrem Router ermitteln. Vergewissern Sie sich auch, dass Sie den VNC-Server auf dem Raspberry PI aktiviert haben (dazu führen Sie 'sudo raspi-config' aus und wählen dann Interface Options -> VNC -> Yes)."
+

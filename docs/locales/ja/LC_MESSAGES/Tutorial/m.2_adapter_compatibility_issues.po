@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:2
+msgid "M.2 Adapter Compatibility Issues"
+msgstr "M.2アダプターの互換性の問題"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:5
+msgid ""
+"The following SSDs may have compatibility issues. While some issues may "
+"have been resolved, it is still recommended to use NVMe SSDs not listed "
+"below."
+msgstr "以下のSSDには互換性の問題がある可能性があります。いくつかの問題は解決されているかもしれませんが、以下に記載されていないNVMe SSDを使用することをお勧めします。"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:8
+msgid "Western Digital Series"
+msgstr "ウェスタンデジタルシリーズ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:10
+msgid "Western Digital Green SN350 series"
+msgstr "ウェスタンデジタル・グリーンSN350シリーズ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:11
+msgid "Western Digital Blue SN550 series"
+msgstr "ウエスタンデジタル Blue SN550シリーズ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:12
+msgid "Western Digital Blue SN580 series"
+msgstr "ウエスタンデジタル Blue SN580シリーズ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:13
+msgid "Western Digital SN740"
+msgstr "ウエスタンデジタルSN740"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:14
+msgid "Western Digital Black SN770"
+msgstr "ウェスタンデジタル・ブラックSN770"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:15
+msgid "Western Digital Black SN850 series"
+msgstr "ウェスタンデジタル・ブラックSN850シリーズ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:16
+msgid "Western Digital BLACK 8TB SN850X"
+msgstr "ウエスタンデジタル BLACK 8TB SN850X"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:19
+msgid "Other Brands"
+msgstr "その他のブランド"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:21
+msgid "Samsung PM991"
+msgstr "サムスンPM991"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:22
+msgid "Kingston OM8SEP4256Q-A0"
+msgstr "キングストン OM8SEP4256Q-A0"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:23
+msgid "Transcend 110Q (TS500GMTE110Q)"
+msgstr "トランセンド110Q (TS500GMTE110Q)"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:24
+msgid "Corsair MP600 SSD"
+msgstr "コルセア MP600 SSD"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:25
+msgid "Inland tn446 nvme drive"
+msgstr "インランドTN446NVMドライブ"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:26
+msgid "Micron 2450 SSD (Can be recognized but does not support booting from NVMe)"
+msgstr "Micron 2450 SSD (認識できるが、NVMeからの起動はサポートしない)"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:27
+msgid "Other NVMe SSDs equipped with the same Phison controller"
+msgstr "同じPhisonコントローラーを搭載した他のNVMe SSD"
+
+#: ../../source/Tutorial/m.2_adapter_compatibility_issues.rst:30
+msgid ""
+"If you encounter any issues with your SSD, please check if it's listed "
+"above. For the best compatibility, consider using SSDs from other "
+"manufacturers or models not mentioned in this list."
+msgstr "お使いのSSDに何らかの問題が発生した場合は、上記のリストに記載されているかどうかをご確認ください。最高の互換性を得るには、このリストに記載されていない他のメーカーやモデルのSSDの使用を検討してください。"
+

@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/about_this_kit.rst:9
+msgid "LAFVIN M.2 NVMe SSD Adapter For RPI5"
+msgstr "RPI5用LAFVIN M.2 NVMe SSDアダプタ"
+
+#: ../../source/about_this_kit.rst:14
+msgid "*LAFVIN M.2 NVMe SSD Adapter*"
+msgstr "*LAFVIN M.2 NVMe SSD アダプタ*."
+
+#: ../../source/about_this_kit.rst:17
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../source/about_this_kit.rst:19
+msgid ""
+"The LAFVIN M.2 NVMe SSD Adapter is an NVMe M.2 SSD PCIe peripheral board "
+"(PIP) designed specifically for the Raspberry Pi 5. It utilizes the Pi "
+"5's PCIe interface to connect NVMe M.2 SSDs (compatible with 2230, 2242, "
+"2260, 2280 sizes, supporting PCIe Gen3), enabling rapid data transfer and"
+" high-speed system booting."
+msgstr "LAFVIN M.2 NVMe SSDアダプタは、Raspberry Pi 5専用に設計されたNVMe M.2 SSD PCIeペリフェラルボード（PIP）です。Pi 5のPCIeインターフェイスを利用してNVMe M.2 SSD（2230、2242、2260、2280サイズと互換性があり、PCIe Gen3をサポート）を接続し、高速データ転送と高速システム起動を可能にします。"
+
+#: ../../source/about_this_kit.rst:21
+msgid ""
+"The LAFVIN M.2 NVMe SSD Adapter board conforms to the standard Raspberry "
+"Pi HAT dimensions and supports the four common NVMe SSD sizes: 2230, "
+"2242, 2260, and 2280. The kit includes SSD mounting screws, allowing "
+"users to easily install different SSD sizes as needed."
+msgstr "LAFVIN M.2 NVMe SSDアダプタボードは、標準的なRaspberry Pi HATの寸法に準拠しており、4つの一般的なNVMe SSDサイズ（2230、2242、2260、2280）をサポートしています。キットにはSSD取り付けネジが含まれており、ユーザーは必要に応じて異なるサイズのSSDを簡単に取り付けることができます。"
+
+#: ../../source/about_this_kit.rst:28
+msgid "Features"
+msgstr "特徴"
+
+#: ../../source/about_this_kit.rst:32
+msgid ""
+"**Designed for Raspberry Pi 5:** Perfectly tailored for the latest "
+"Raspberry Pi 5 single-board computer."
+msgstr "**最新のシングルボードコンピューターRaspberry Pi 5用に設計されています。"
+
+#: ../../source/about_this_kit.rst:33
+msgid ""
+"**NVMe Support:** Supports installation of M Key and B+M Key M.2 NVMe "
+"SSDs in 2230, 2242, 2260, and 2280 formats. Includes custom CNC SSD "
+"mounting screws, no soldering required."
+msgstr "**NVMe対応：** 2230、2242、2260、2280フォーマットのM KeyおよびB+M Key M.2 NVMe SSDの取り付けをサポート。ハンダ付け不要のカスタムCNC SSD取り付けネジ付き。"
+
+#: ../../source/about_this_kit.rst:34
+msgid ""
+"**PCIe Support:** Supports PCIe x1 interface, compatible with both Gen2 "
+"and Gen3 standards."
+msgstr "**PCIe対応:** PCIe x1インターフェイスをサポートし、Gen2およびGen3規格の両方に対応。"
+
+#: ../../source/about_this_kit.rst:35
+msgid ""
+"**Optimized Cooling:** On-board ventilation holes facilitate airflow, "
+"enhancing heat dissipation."
+msgstr "**最適化された冷却：**オンボードの通気孔は、熱放散を強化し、空気の流れを容易にします。"
+
+#: ../../source/about_this_kit.rst:36
+msgid ""
+"**Camera/Display FPC Cutouts:** Openings are reserved on the PCB to allow"
+" routing for two display or camera FPC cables."
+msgstr "**カメラ/ディスプレイFPCカットアウト:** 2つのディスプレイまたはカメラFPCケーブルの配線を可能にするため、PCB上に開口部が確保されています。"
+
+#: ../../source/about_this_kit.rst:37
+msgid ""
+"**Gold-Plated PCB:** Manufactured using an immersion gold process for "
+"superior electrical performance and durability."
+msgstr "**金メッキPCB:**優れた電気的性能と耐久性のために無電解金プロセスを使用して製造された。"
+
+#: ../../source/about_this_kit.rst:38
+msgid ""
+"**Ultra-Short PCIe Traces:** Optimized short PCIe signal routing ensures "
+"more reliable and faster transmission, fully meeting PCIe Gen3 signal "
+"requirements."
+msgstr "**超短PCIeトレース:**最適化された短いPCIe信号ルーティングは、PCIe Gen3信号要件を完全に満たし、より信頼性が高く、より高速な伝送を保証します。"
+
+#: ../../source/about_this_kit.rst:39
+msgid ""
+"**LED Indicator:** Features an onboard LED indicator (\"ACT\") for M.2 "
+"SSD activity status."
+msgstr "**LEDインジケーター:** M.2 SSDのアクティビティステータスを表示するオンボードLEDインジケーター(「ACT」)を搭載。"
+
+#: ../../source/about_this_kit.rst:40
+msgid ""
+"**M.2 Standard Power System:** Integrates an efficient voltage regulator "
+"providing up to 3A for the 3.3V power rail, compliant with M.2 (NGFF) "
+"power specifications."
+msgstr "**M.2標準電源システム：** M.2（NGFF）電源仕様に準拠し、3.3V電源レールに最大3Aを供給する効率的な電圧レギュレーターを統合。"
+
+#: ../../source/about_this_kit.rst:41
+msgid ""
+"**All Necessary Accessories Included:** The kit contains an FPC PCIe "
+"ribbon cable, M2 and M2.5 screws, standoffs, SSD mounting standoffs, and "
+"an M.2 SSD heatsink kit including a heatsink and thermal pad."
+msgstr "**必要なアクセサリーをすべて同梱:** このキットには、FPC PCIeリボンケーブル、M2およびM2.5ネジ、スタンドオフ、SSDマウント用スタンドオフ、ヒートシンクとサーマルパッドを含むM.2 SSDヒートシンクキットが含まれています。"
+
+#: ../../source/about_this_kit.rst:-1
+msgid "Included accessories in the kit"
+msgstr "キットに含まれるアクセサリー"
+
+#: ../../source/about_this_kit.rst:47
+msgid "Application Scenarios"
+msgstr "アプリケーション・シナリオ"
+
+#: ../../source/about_this_kit.rst:51
+msgid ""
+"**Expanded Storage:** Provide your Raspberry Pi with high-speed, large-"
+"capacity additional storage space."
+msgstr "**拡張ストレージ：**高速、大容量の追加ストレージスペースをRaspberry Piに提供します。"
+
+#: ../../source/about_this_kit.rst:52
+msgid ""
+"**System Boot Disk:** Use the SSD as the primary system disk for your "
+"Raspberry Pi 5 to experience ultra-fast boot times and responsiveness."
+msgstr "**システム起動ディスク:** Raspberry Pi 5のプライマリシステムディスクとしてSSDを使用すると、超高速起動時間と応答性を体験できます。"
+
+#: ../../source/about_this_kit.rst:55
+msgid ""
+"The kit includes all necessary accessories **except** for the Raspberry "
+"Pi 5 board, SD card, and M.2 NVMe SSD itself."
+msgstr "キットには、Raspberry Pi 5ボード、SDカード、M.2 NVMe SSD本体を除く**必要なアクセサリーがすべて含まれています。"
+

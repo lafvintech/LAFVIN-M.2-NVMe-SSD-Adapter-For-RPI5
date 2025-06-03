@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Lafvin
+# This file is distributed under the same license as the LAFVIN M.2 NVMe SSD
+# Adapter For RPI5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LAFVIN M.2 NVMe SSD Adapter For RPI5 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-30 15:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:2
+msgid "3. Using SSD as the System Disk"
+msgstr "3. Utilisation d'un disque SSD comme disque système"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:3
+msgid ""
+"This chapter will guide you on how to configure an M.2 NVMe SSD as the "
+"primary system disk for your Raspberry Pi 5, enabling you to boot and run"
+" the system from the SSD."
+msgstr "Ce chapitre vous explique comment configurer un disque SSD M.2 NVMe en tant que disque système principal pour votre Raspberry Pi 5, ce qui vous permet de démarrer et d'exécuter le système à partir du disque SSD."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:6
+msgid ""
+"Before starting, ensure you have completed **Steps 1 through 4** from the"
+" previous chapter **\"2. Using SSD as Expanded Storage (SD Card + "
+"SSD)\"**, including: * Modifying the boot configuration "
+"(``/boot/firmware/config.txt``) * Correctly installing the M.2 adapter "
+"and SSD * Confirming the system recognizes the SSD (using ``lspci`` and "
+"``lsblk``) * Formatting the SSD with the ext4 filesystem (using "
+"``mkfs.ext4``)"
+msgstr "Avant de commencer, assurez-vous d'avoir terminé les **étapes 1 à 4** du chapitre précédent **"2. Utilisation d'un disque SSD comme stockage étendu (carte SD + disque SSD)**", y compris : * Modifier la configuration de démarrage (``/boot/firmware/config.txt``) * Installer correctement l'adaptateur M.2 et le SSD * Confirmer que le système reconnaît le SSD (en utilisant ``lspci`` et ``lsblk``) * Formater le SSD avec le système de fichiers ext4 (en utilisant ``mkfs.ext4``)"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:12
+msgid ""
+"**Do not perform Step 5 (Mounting the SSD) or Step 6 (Testing Speed) from"
+" the previous chapter.**"
+msgstr "**N'effectuez pas l'étape 5 (Montage du disque SSD) ou l'étape 6 (Test de la vitesse) du chapitre précédent."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:15
+msgid "**Step 1: Enable and Connect VNC**"
+msgstr "**Étape 1 : Activer et connecter VNC**"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:16
+msgid ""
+"If you haven't enabled the VNC server yet, enable it via ``raspi-config``"
+" or the desktop environment's settings. * Enter ``sudo raspi-config`` in "
+"the terminal * Select ``Interface Options`` -> ``VNC`` -> ``Yes``."
+msgstr "Si vous n'avez pas encore activé le serveur VNC, activez-le via ``raspi-config`` ou les paramètres de l'environnement de bureau. * Entrez ``sudo raspi-config`` dans le terminal * Sélectionnez ``Options d'interface`` -> ``VNC`` -> ``Oui``."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:19
+msgid ""
+"Using a VNC Viewer client or similar software, connect to the Raspberry "
+"Pi's desktop environment from your computer."
+msgstr "À l'aide d'un client VNC Viewer ou d'un logiciel similaire, connectez-vous à l'environnement de bureau du Raspberry Pi depuis votre ordinateur."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:26
+msgid "**Step 2: Copy the System using SD Card Copier**"
+msgstr "**Étape 2 : Copier le système à l'aide du copieur de carte SD**"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:27
+msgid ""
+"In the Raspberry Pi's desktop environment, find and open the \"SD Card "
+"Copier\" tool (usually under the \"Accessories\" menu)."
+msgstr "Dans l'environnement de bureau du Raspberry Pi, recherchez et ouvrez l'outil "Copieur de carte SD" (généralement dans le menu "Accessoires")."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:28
+msgid ""
+"In the \"Copy From Device\" dropdown menu, select your SD card device "
+"(usually ``/dev/mmcblk0``)."
+msgstr "Dans le menu déroulant "Copy From Device", sélectionnez le périphérique de votre carte SD (généralement ``dev/mmcblk0``)."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:29
+msgid ""
+"In the \"Copy To Device\" dropdown menu, select your NVMe SSD device "
+"(e.g., ``/dev/nvme0n1``)."
+msgstr "Dans le menu déroulant "Copy To Device", sélectionnez votre périphérique SSD NVMe (par exemple, ``dev/nvme0n1``)."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:30
+msgid ""
+"**Make sure to check the \"New Partition UUIDs\"** option. This is "
+"crucial to avoid partition UUID conflicts during boot."
+msgstr "**Veillez à cocher l'option "New Partition UUIDs". C'est essentiel pour éviter les conflits d'UUID de partition au démarrage."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:31
+msgid ""
+"Click the \"Start\" button to begin the copying process. This may take "
+"some time, depending on the size and speed of your SD card."
+msgstr "Cliquez sur le bouton "Démarrer" pour lancer le processus de copie. Cette opération peut prendre un certain temps, en fonction de la taille et de la vitesse de votre carte SD."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst
+msgid "SD Card Copier - Select Source Device (SD Card)"
+msgstr "Copieur de carte SD - Sélection du périphérique source (carte SD)"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst
+msgid "SD Card Copier - Select Target Device (SSD) and check New Partition UUIDs"
+msgstr "Copieur de carte SD - Sélectionnez Périphérique cible (SSD) et cochez Nouvelle partition UUIDs."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst
+msgid "SD Card Copier - Start Copying"
+msgstr "Copieur de carte SD - Démarrer la copie"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:40
+msgid "Wait for the copy process to complete."
+msgstr "Attendez la fin du processus de copie."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:43
+msgid "**Step 3: Modify EEPROM Boot Configuration**"
+msgstr "**Étape 3 : Modifier la configuration de l'amorçage de l'EEPROM**"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:44
+msgid ""
+"After the copy is complete, maintain the VNC connection or switch back to"
+" an SSH terminal."
+msgstr "Une fois la copie terminée, maintenez la connexion VNC ou revenez à un terminal SSH."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:45
+msgid "Execute the following command to edit the EEPROM configuration:"
+msgstr "Exécutez la commande suivante pour modifier la configuration de l'EEPROM :"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:51
+msgid ""
+"Check the file content and ensure it includes the following two lines. If"
+" they don't exist, add them:"
+msgstr "Vérifiez le contenu du fichier et assurez-vous qu'il contient les deux lignes suivantes. Si elles n'existent pas, ajoutez-les :"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:58
+msgid "``PCIE_PROBE=1`` ensures PCIe devices are probed at boot."
+msgstr "``PCIE_PROBE=1`` assure que les périphériques PCIe sont sondés au démarrage."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:59
+msgid ""
+"``BOOT_ORDER=0xf416`` sets the boot order: Try NVMe SSD (``6``) first, "
+"then SD card (``1``), then USB (``4``), and finally network boot (``f``) "
+"if all else fails."
+msgstr "``BOOT_ORDER=0xf416`` définit l'ordre de démarrage : Essayer d'abord le SSD NVMe (``6``), puis la carte SD (``1``), puis l'USB (``4``), et enfin le démarrage réseau (``f``) si tout le reste échoue."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst
+msgid "Edit EEPROM Configuration"
+msgstr "Modifier la configuration de l'EEPROM"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst
+msgid "Example EEPROM Configuration Content (including PCIE_PROBE and BOOT_ORDER)"
+msgstr "Exemple de contenu de configuration de l'EEPROM (y compris PCIE_PROBE et BOOT_ORDER)"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:66
+msgid "Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit."
+msgstr "Appuyez sur ``Ctrl+X``, puis sur ``Y``, et enfin sur ``Enter`` pour sauvegarder et quitter."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:69
+msgid "**Step 4: Boot from SSD**"
+msgstr "**Étape 4 : Démarrage à partir du disque dur SSD**"
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:70
+msgid "Power off the Raspberry Pi 5."
+msgstr "Éteignez le Raspberry Pi 5."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:71
+msgid "**Remove the SD card**."
+msgstr "**Supprimez la carte SD**."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:72
+msgid "Reconnect the power."
+msgstr "Reconnectez l'alimentation."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:74
+msgid ""
+"The Raspberry Pi should now attempt to boot from the NVMe SSD. If "
+"everything is successful, the system will load and run from the SSD. You "
+"can confirm if the root filesystem (``/``) is on the NVMe device (e.g., "
+"``/dev/nvme0n1p2``) using the ``lsblk`` or ``df -h`` command."
+msgstr "Le Raspberry Pi devrait maintenant essayer de démarrer à partir du SSD NVMe. Si tout se passe bien, le système se chargera et fonctionnera à partir du SSD. Vous pouvez confirmer que le système de fichiers racine (``/``) se trouve sur le périphérique NVMe (par exemple, ``dev/nvme0n1p2`) en utilisant la commande ``lsblk` ou ``df -h`."
+
+#: ../../source/Tutorial/3.booting_from_ssd.rst:79
+msgid ""
+"If you encounter boot issues, you can try reinserting the SD card to "
+"check the EEPROM configuration and the filesystem on the SSD."
+msgstr "Si vous rencontrez des problèmes de démarrage, vous pouvez essayer de réinsérer la carte SD pour vérifier la configuration de l'EEPROM et le système de fichiers sur le disque SSD."
+
