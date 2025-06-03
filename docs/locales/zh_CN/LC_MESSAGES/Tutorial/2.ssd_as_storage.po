@@ -55,7 +55,7 @@ msgstr "在文件末尾添加以下两行："
 msgid ""
 "Press ``Ctrl+X``, then ``Y``, and finally ``Enter`` to save and exit the "
 "editor."
-msgstr "按``Ctrl+X``，然后按``Y``，最后按``Enter`保存并退出编辑器。"
+msgstr "按 ``Ctrl+X``，然后按``Y``，最后按 ``Enter`` 保存并退出编辑器。"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:28
 msgid "**Step 2: Install Hardware**"
@@ -121,7 +121,7 @@ msgstr "格式化完成后，再次使用 ``lsblk`` 确认设备状态。"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:67
 msgid "Now, ``/dev/nvme0n1`` should no longer have an associated mount point."
-msgstr "现在，`/dev/nvme0n1`` 不再有关联的挂载点。"
+msgstr "现在，``/dev/nvme0n1`` 不再有关联的挂载点。"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:72
 msgid "**Step 5: Mount the SSD**"
@@ -157,7 +157,7 @@ msgstr "假设用户名为 ``pi``，挂载点为 ``/home/pi/SSD``。请根据实
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:101
 msgid "Press ``Ctrl+X``, ``Y``, ``Enter`` to save and exit."
-msgstr "按 ``Ctrl+X``, ``Y``, ``Enter` 保存并退出。"
+msgstr "按 ``Ctrl+X``, ``Y``, ``Enter`` 保存并退出。"
 
 #: ../../source/Tutorial/2.ssd_as_storage.rst:105
 msgid ""

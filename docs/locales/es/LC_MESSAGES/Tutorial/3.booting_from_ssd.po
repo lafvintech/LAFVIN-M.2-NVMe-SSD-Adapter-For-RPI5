@@ -44,7 +44,7 @@ msgstr "**Paso 1: Activar y conectar VNC**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:16
 msgid "If you haven't enabled the VNC server yet, enable it via ``raspi-config`` or the desktop environment's settings. * Enter ``sudo raspi-config`` in the terminal * Select ``Interface Options`` -> ``VNC`` -> ``Yes``."
-msgstr "Si aún no has habilitado el servidor VNC, habilítalo a través de ``raspi-config`` o la configuración del entorno de escritorio. * Introduce ``sudo raspi-config`` en el terminal * Selecciona ``Opciones de interfaz`` -> ``VNC`` -> ``Sí``."
+msgstr "Si aún no has habilitado el servidor VNC, habilítalo a través de ``raspi-config`` o la configuración del entorno de escritorio. * Introduce ``sudo raspi-config`` en el terminal * Selecciona ``Interface Options`` -> ``VNC`` -> ``Yes``."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:19
 msgid "Using a VNC Viewer client or similar software, connect to the Raspberry Pi's desktop environment from your computer."
@@ -56,7 +56,7 @@ msgstr "**Paso 2: Copiar el Sistema usando el Copiador de Tarjetas SD**"
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:27
 msgid "In the Raspberry Pi's desktop environment, find and open the \"SD Card Copier\" tool (usually under the \"Accessories\" menu)."
-msgstr "En el entorno de escritorio de la Raspberry Pi, busque y abra la herramienta \"Copiadora de tarjetas SD\" (normalmente en el menú \"Accesorios\")."
+msgstr "En el entorno de escritorio de la Raspberry Pi, busque y abra la herramienta \"SD Card Copier\" (normalmente en el menú \"Accesorios\")."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:28
 msgid "In the \"Copy From Device\" dropdown menu, select your SD card device (usually ``/dev/mmcblk0``)."
@@ -68,7 +68,7 @@ msgstr "En el menú desplegable \"Copiar en dispositivo\", seleccione su disposi
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:30
 msgid "**Make sure to check the \"New Partition UUIDs\"** option. This is crucial to avoid partition UUID conflicts during boot."
-msgstr "**Asegúrese de marcar la opción \"Nuevo UUID de partición\". Esto es crucial para evitar conflictos de UUID de partición durante el arranque."
+msgstr "**Asegúrese de marcar la opción \"Nuevo UUID de partición\".** Esto es crucial para evitar conflictos de UUID de partición durante el arranque."
 
 #: ../../source/Tutorial/3.booting_from_ssd.rst:31
 msgid "Click the \"Start\" button to begin the copying process. This may take some time, depending on the size and speed of your SD card."

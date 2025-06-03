@@ -99,7 +99,7 @@ msgstr "**Almacenamiento ampliado:** Proporcione a su Raspberry Pi espacio de al
 
 #: ../../source/about_this_kit.rst:52
 msgid "**System Boot Disk:** Use the SSD as the primary system disk for your Raspberry Pi 5 to experience ultra-fast boot times and responsiveness."
-msgstr "**Utiliza el SSD como disco principal del sistema para tu Raspberry Pi 5 y disfruta de tiempos de arranque y capacidad de respuesta ultrarrápidos."
+msgstr "**Disco de arranque del sistema:** Utiliza el SSD como disco principal del sistema para tu Raspberry Pi 5 y disfruta de tiempos de arranque y capacidad de respuesta ultrarrápidos."
 
 #: ../../source/about_this_kit.rst:55
 msgid "The kit includes all necessary accessories **except** for the Raspberry Pi 5 board, SD card, and M.2 NVMe SSD itself."
